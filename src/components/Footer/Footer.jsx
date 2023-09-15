@@ -1,5 +1,10 @@
 import React from 'react';
-
+import whatsapp from '../../assets/images/whatsapp.png'
+import location from '../../assets/images/ubicacion.png'
+import email from '../../assets/images/email.png'
+import ig from '../../assets/images/ig.png'
+import facebook from '../../assets/images/facebook.png'
+import catalogue from '../../assets/images/catalogo.png'
 
 const Footer = () => {
   return (

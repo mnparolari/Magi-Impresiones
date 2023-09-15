@@ -8,13 +8,17 @@
         padding-top: 10px;
 
         .footerh3 {
-            padding-left: 238px;
+            padding-left: 248px;
             font-size: 18px;
             margin-bottom: 3px;
+            font-weight: 600;
+            margin: 0;
+            padding-top: 5px;
         }
         .iconsBox {
             display: flex;
             justify-content: space-around;
+            padding-top: 3px;
     
             .iconsContainer {
                 display: flex;
@@ -30,7 +34,8 @@
                 .iconsText {
                     padding-left: 7px;
                     color: nth($color-palette, 2);
-                    font-size: 14px;
+                    font-size: 13px;
+                    margin: 0;
                 }
             }
         }
