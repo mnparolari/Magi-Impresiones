@@ -6,6 +6,7 @@
 
 .sectionContacts {
   font-family: "Raleway", sans-serif;
+  overflow: hidden;
 }
 .sectionContacts .contactsContainer {
   text-align: center;
