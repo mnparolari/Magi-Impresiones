@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.sectionContacts {
+  font-family: "Raleway", sans-serif;
+}
+.sectionContacts .contactsContainer {
+  text-align: center;
+}
+
 .footer {
   width: 100%;
   height: 230px;
