@@ -13,6 +13,56 @@
 .sectionContacts .contactsContainer .titleContainer {
   padding: 30px;
 }
+.sectionContacts .contactsContainer .titleContainer .contactsh2 {
+  font-size: 27px;
+  margin: 0;
+  font-weight: 600;
+}
+.sectionContacts .contactsContainer .titleContainer .contactsh3 {
+  font-size: 19px;
+  margin: 3px;
+}
+.sectionContacts .formContainer .formh3 {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #007680;
+}
+.sectionContacts .formContainer .row .namePhoneContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.sectionContacts .formContainer .row .namePhoneContainer .col-md-2 {
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sectionContacts .formContainer .row .namePhoneContainer .col-md-2 .form-control {
+  border-color: #007680;
+}
+.sectionContacts .formContainer .row .emailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.sectionContacts .formContainer .row .emailContainer .col-4 .form-control {
+  border-color: #007680;
+}
+.sectionContacts .formContainer .btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.sectionContacts .formContainer .btnContainer .submit {
+  background-color: #007680;
+  color: #FFFFFF;
+}
 
 .footer {
   width: 100%;

@@ -6,6 +6,68 @@
 
         .titleContainer {
             padding: 30px;
+
+            .contactsh2 {
+                font-size: 27px;
+                margin: 0;
+                font-weight: 600;
+            }
+            .contactsh3 {
+                font-size: 19px;
+                margin: 3px;
+            }
+        }
+    }
+    .formContainer {
+        .formh3 {
+            text-align: center;
+            font-size: 19px;
+            margin-top: 35px;
+            margin-bottom: 25px;
+            font-weight: 600;
+            color: nth($color-palette, 1)
+        }
+
+        .row {
+            .namePhoneContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 15px;
+
+                .col-md-2 {
+                    padding: 5px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+
+                    .form-control {
+                        border-color: nth($color-palette, 1);
+                    }
+                }
+            }
+            .emailContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 15px;
+
+                .col-4 {
+                    .form-control {
+                        border-color: nth($color-palette, 1);
+                    }
+                }
+            }
+        }
+        .btnContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 30px;
+
+            .submit {
+                background-color: nth($color-palette, 1);
+                color: nth($color-palette, 6);
+            }
         }
     }
 }
