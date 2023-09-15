@@ -5,20 +5,26 @@
 
     .footerContainer {
         font-family: $font-primary;
-        padding-top: 10px;
+        padding-top: 20px;
 
         .footerh3 {
             padding-left: 250px;
             font-size: 18px;
             margin-bottom: 3px;
+            font-weight: 600;
+            margin: 0;
         }
+
         .iconsBox {
             display: flex;
             justify-content: space-around;
+            padding-top: 7px;
     
             .iconsContainer {
                 display: flex;
+                flex-direction: row;
                 align-items: center;
+                text-align: center;
                 padding: 3px;
                 margin-top: 5px;
     
@@ -31,6 +37,7 @@
                     padding-left: 7px;
                     color: nth($color-palette, 2);
                     font-size: 14px;
+                    margin-bottom: 0;
                 }
             }
         }
@@ -45,7 +52,7 @@
         text-align: center;
 
         .smallFooter {
-            font-size: 11px;
+            font-size: 12px;
             align-items: center;
             font-family: $font-primary;
         }
