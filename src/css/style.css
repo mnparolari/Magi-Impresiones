@@ -52,6 +52,9 @@
   font-size: 13px;
   margin: 0;
 }
+.footer .footerContainer .iconsBoxMobile {
+  display: none;
+}
 .footer .smallContainer {
   display: flex;
   justify-content: center;

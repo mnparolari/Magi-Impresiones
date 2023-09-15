@@ -42,6 +42,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className='iconsBoxMobile'>
+          <a href="https://wa.me/5492612421929" target='_blank' rel="noreferrer"><img src={whatsapp} alt="Whatsapp" /></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=villarroyam.imei@gmail.com" target='_blank' rel="noreferrer"><img src={email} alt="Email" /></a>
+          <a href="https://www.instagram.com/magiimpresiones/?hl=es" target='_blank' rel="noreferrer"><img src={ig} alt="Instagram" /></a>
+        </div>
       </div>
       <div className='smallContainer'>
         <small className='smallFooter'>Mendoza | Argentina <br />
