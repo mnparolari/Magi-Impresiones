@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    height: 230px;
+    background-color: nth($color-palette, 8);
+
+    .footerContainer {
+        font-family: $font-primary;
+        padding-top: 10px;
+
+        .footerh3 {
+            padding-left: 238px;
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+        .iconsBox {
+            display: flex;
+            justify-content: space-around;
+    
+            .iconsContainer {
+                display: flex;
+                align-items: center;
+                padding: 3px;
+                margin-top: 5px;
+    
+                #icons {
+                    font-size: 2rem;
+                    color: nth($color-palette, 1)
+                }
+    
+                .iconsText {
+                    padding-left: 7px;
+                    color: nth($color-palette, 2);
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .smallContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .smallFooter {
+            font-size: 11px;
+            align-items: center;
+            font-family: $font-primary;
+        }
+    }
+}
