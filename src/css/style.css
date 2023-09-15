@@ -22,6 +22,15 @@
   font-size: 19px;
   margin: 3px;
 }
+.sectionContacts .contactsContainer .iframeContainer {
+  text-align: center;
+}
+.sectionContacts .contactsContainer .iframeContainer iframe {
+  width: 90%;
+  height: 450px;
+  border: 0;
+  text-align: center;
+}
 .sectionContacts .formContainer .formh3 {
   text-align: center;
   font-size: 19px;
@@ -121,6 +130,11 @@
   .footer .footerContainer .footerh3 {
     text-align: center;
     padding-left: 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .sectionContacts .formContainer .row .namePhoneContainer {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 460px) {

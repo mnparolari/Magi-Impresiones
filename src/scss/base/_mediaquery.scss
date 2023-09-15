@@ -5,6 +5,12 @@
     }
 }
 
+@media screen and (max-width: 770px) {
+    .sectionContacts .formContainer .row .namePhoneContainer {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 460px) {
     .footer {
         display: flex;
