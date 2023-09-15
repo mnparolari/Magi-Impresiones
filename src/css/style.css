@@ -4,4 +4,14 @@
   box-sizing: border-box;
 }
 
+.sectionContacts {
+  font-family: "Raleway", sans-serif;
+}
+.sectionContacts .contactsContainer {
+  text-align: center;
+}
+.sectionContacts .contactsContainer .titleContainer {
+  padding: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
