@@ -60,7 +60,7 @@ const Navbar = () => {
             </li>
 
             <li className={`objectList dropdown ${dropdownOpen ? 'open' : ''}`}> 
-              <NavLink to={"/:category"} activeClassName="active-link"  className="nav-link" onClick={toggleDropdown}>Nuestros productos ↓ </NavLink>
+              <NavLink to={"/:category"} activeclassname="active-link"  className="nav-link" onClick={toggleDropdown}>Nuestros productos ↓ </NavLink>
               <div className="dropdown-content">
                 {['Souvenir', 'Papelería', 'Sublimados en madera', 'Textiles', 'Momento del mate', 'Para beber', 'Mascotas', 'Sellos'].map((category, index) => (
                   <div className="dropdown-item" key={index}>
