@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './Carousel.css'
 
 const CarouselItem = ({ src, overlaySrc }) => {
     const [hovered, setHovered] = useState(false);
