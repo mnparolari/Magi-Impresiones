@@ -127,6 +127,14 @@
   font-family: "Raleway", sans-serif;
 }
 
+.floatWhatsapp {
+  position: fixed;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
 @media screen and (max-width: 1075px) {
   .footer .footerContainer .footerh3 {
     text-align: center;
