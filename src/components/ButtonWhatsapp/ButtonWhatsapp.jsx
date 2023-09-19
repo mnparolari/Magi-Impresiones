@@ -1,7 +1,7 @@
 import React from 'react';
 import floatWhatsapp from '../../assets/images/whatsapp-flotante.png';
 
-const ButtonWp = () => {
+const ButtonWhatsapp = () => {
 
     const onHandleWhatsapp = () => {
         window.open('https://wa.me/5492612421929', '_blank');
@@ -14,4 +14,4 @@ const ButtonWp = () => {
     )
 }
 
-export default ButtonWp
+export default ButtonWhatsapp

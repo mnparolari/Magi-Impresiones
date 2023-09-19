@@ -6,7 +6,7 @@ import Home from '../components/Home/Home'
 import About from '../components/About/About'
 import Contacts from '../components/Contacts/Contacts'
 import ItemListContainer from '../components/Products/ItemListContainer'
-import ButtonWp from '../components/ButtonWp/ButtonWp'
+import ButtonWhatsapp from '../components/ButtonWhatsapp/ButtonWhatsapp'
 
 const RoutesNavigation = () => {
     return (
@@ -19,7 +19,7 @@ const RoutesNavigation = () => {
                 <Route path='/Contactos' element={<Contacts />} />
                 <Route path="*" element={<h1>404 NOT FOUND</h1>} />
             </Routes>
-            <ButtonWp />
+            <ButtonWhatsapp />
             <Footer />
         </BrowserRouter>
     )

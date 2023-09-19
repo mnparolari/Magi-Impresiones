@@ -175,6 +175,125 @@
   font-family: "Raleway", sans-serif;
 }
 
+header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.977);
+  color: #2d929b;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 2.5rem;
+  width: 180px;
+}
+
+h1 {
+  margin: 1rem;
+  font-family: "Zen Dots", sans-serif;
+}
+
+.navbarList {
+  width: 60vw;
+}
+
+.objectList {
+  display: inline-block;
+  margin: 2rem;
+  cursor: pointer;
+  font-size: large;
+  transition: transform 0.2s ease;
+  border-radius: 32px;
+  width: 19%;
+  height: 65px;
+  text-align: center;
+  padding-top: 0.6em;
+}
+
+.objectList:hover {
+  font-weight: bold;
+  transition: all 0.5s ease;
+  background-color: rgba(210, 233, 163, 0.5058823529);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: inherit;
+}
+
+.active-link {
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  transition: all 0s;
+  background-color: rgba(30, 143, 153, 0.9254901961);
+  color: rgb(255, 255, 255);
+  border-radius: 32px;
+  height: 65px;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.active-link:hover,
+.active-link:focus {
+  color: white;
+  padding-top: 1em;
+}
+
+.objectList.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.objectList.dropdown.open .dropdown-content {
+  display: flex;
+  position: absolute;
+  top: 130%;
+  left: calc(-1 * (125vw - 100%) / 2);
+  width: 80vw;
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 15vh;
+  position: relative;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+.dropdown-item:hover .dropdown-image {
+  background-color: rgba(210, 233, 163, 0.7254901961);
+}
+
+.dropdown-image {
+  transition: background-color 0.2s ease;
+  padding: 10px;
+  border-radius: 15px;
+}
+
 .floatWhatsapp {
   position: fixed;
   cursor: pointer;

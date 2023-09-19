@@ -22,7 +22,7 @@ const Footer = () => {
               <p className='iconsText'>0261 242-1929</p>
             </div>
             <div className='iconsContainer'>
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=villarroyam.imei@gmail.com" target='_blank' rel="noreferrer"><img src={email} alt="Email" /></a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=villarroyam.imei@gmail.com"  target='_blank' rel="noreferrer"><img src={email} alt="Email" /></a>
               <p className='iconsText'>villarroyam.imei@gmail.com</p>
             </div>
             .
