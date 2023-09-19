@@ -5,6 +5,54 @@
 }
 
 .sectionContacts {
+  padding: 20px;
+}
+.sectionContacts .contactsContainer {
+  padding: 20px;
+}
+.sectionContacts .contactsContainer .titleContainer {
+  margin-bottom: 20px;
+}
+.sectionContacts .contactsContainer .titleContainer .conocemas {
+  font-size: 27px;
+  margin: 0;
+  font-weight: 600;
+}
+.sectionContacts .infoabout,
+.sectionContacts .mision {
+  margin: 25px 150px;
+  font-size: 19px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.sectionContacts .mision {
+  font-weight: bold;
+  color: #2d929b;
+}
+.sectionContacts .contenedorLogo1 {
+  display: flex;
+  justify-content: center;
+  background-color: #2d929b;
+  height: 30vh;
+  border-radius: 0px 30px 0px 30px;
+  margin: 150px 90px 50px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionContacts .contenedorLogo1 .contenedorLogo2 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 20vh;
+  width: 100%;
+  border-radius: 0px 30px 0px 30px;
+}
+.sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
+  width: 26%;
+}
+
+.sectionContacts {
   font-family: "Raleway", sans-serif;
   overflow: hidden;
 }
