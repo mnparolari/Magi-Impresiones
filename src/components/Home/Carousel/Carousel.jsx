@@ -1,36 +1,43 @@
-import React, { useState } from "react";
-import './carousel.css';
-import foto from '../../../assets/images/certificado-carrera.png'
+import React, { useState } from 'react';
+import './carousel.css'
 
-function Carousel() {
-    const [isHovered, setIsHovered] = useState(false);
 
-    const handleMouseEnter = () => {
-        setIsHovered(true);
+const Carousel = ({ images }) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const nextSlide = () => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === images.length - 1 ? 0 : prevIndex + 1
+        );
     };
 
-    const handleMouseLeave = () => {
-        setIsHovered(false);
+    const prevSlide = () => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === 0 ? images.length - 1 : prevIndex - 1
+        );
     };
 
     return (
-        <div
-            className={`carousel-item ${isHovered ? "hovered" : ""}`}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-        >
-            <img
-                src={foto}
-                alt="Imagen del carrusel"
-                className="carousel-image"
-            />
-            {isHovered && (
-                <button className="carousel-button" onClick={() => alert("Botón clicado")}>
-                    Click Me
-                </button>
-            )}
+        <div className="carousel-container">
+            <div className="carousel">
+                {images.map((image, index) => (
+                    <div
+                        key={index}
+                        className={`carousel-slide ${currentIndex === index ? 'active' : ''}`}
+                    >
+                        <img src={image.src} alt={image.alt} />
+                        <button className="slide-button">{image.buttonText}</button>
+                    </div>
+                ))}
+            </div>
+            <button className="prev-button" onClick={prevSlide}>
+                Anterior
+            </button>
+            <button className="next-button" onClick={nextSlide}>
+                Siguiente
+            </button>
         </div>
     );
-}
+};
 
 export default Carousel;
