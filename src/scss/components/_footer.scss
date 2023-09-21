@@ -8,7 +8,8 @@
         padding-top: 10px;
 
         .footerh3 {
-            padding-left: 248px;
+            text-align: left;
+            padding-left: 241px;
             font-size: 18px;
             margin-bottom: 3px;
             font-weight: 600;
@@ -19,23 +20,28 @@
             display: flex;
             justify-content: space-around;
             padding-top: 3px;
-    
-            .iconsContainer {
-                display: flex;
-                align-items: center;
-                padding: 3px;
+            margin-top: 0;
+
+            .containerFlex{
                 margin-top: 5px;
-    
-                #icons {
-                    font-size: 2rem;
-                    color: nth($color-palette, 1)
-                }
-    
-                .iconsText {
-                    padding-left: 7px;
-                    color: nth($color-palette, 2);
-                    font-size: 13px;
-                    margin: 0;
+
+                .iconsContainer {
+                    display: flex;
+                    align-items: center;
+                    padding: 3px;
+                    margin-top: 5px;
+        
+                    #icons {
+                        font-size: 2rem;
+                        color: nth($color-palette, 1)
+                    }
+        
+                    .iconsText {
+                        padding-left: 7px;
+                        color: nth($color-palette, 2);
+                        font-size: 13px;
+                        margin: 0;
+                    }
                 }
             }
         }
@@ -48,6 +54,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 10px;
 
         .smallFooter {
             font-size: 11px;

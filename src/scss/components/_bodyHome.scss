@@ -1,0 +1,26 @@
+.bodyHomeContainer {
+    font-family: $font-primary;
+    text-align: center;
+    margin-top: 40px;
+    .titleBodyHome {
+        font-size: 20px;
+        color: nth($color-palette, 1);
+        .magiFont {
+            font-family: $font-secondary;
+            font-size: 60px;
+            color: nth($color-palette, 1);
+        }
+    }
+    .imgContainer {
+        margin-top: 55px;
+        .imgBodyHome {
+            width: 350px;
+            margin-left: 25px;
+        }
+    }
+    .textBodyHome {
+        color: nth($color-palette, 2);
+        margin-top: 45px;
+        margin-bottom: 55px;
+    }
+}

@@ -3,7 +3,7 @@ import RoutesNavigation from './routes/RoutesNavigation'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <RoutesNavigation />
     </div>
   );

@@ -1,0 +1,22 @@
+.blockContainer {
+    background-color: nth($color-palette, 10);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 70px;
+    text-align: center;
+    font-family: $font-primary;
+    color: nth($color-palette, 6);
+
+    .titleBlock {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .textBlock {
+        font-size: 14px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
