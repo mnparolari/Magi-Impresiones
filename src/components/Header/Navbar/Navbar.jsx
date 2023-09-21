@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logomagi.png';
 import { Link, NavLink } from 'react-router-dom';
 import '../../../scss/components/_navbar.scss';
+import '../../../scss/base/_mediaquery.scss';
 import souvenirImg from '../../../assets/images/souvenir.png';
 import papeleriaImg from '../../../assets/images/papeleria.png';
 import maderaImg from '../../../assets/images/madera.png';
@@ -24,16 +25,22 @@ const categoryImages = {
 };
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);  
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleDropdown = (event) => {  
-    event.preventDefault();  
+  const toggleDropdown = (event) => {
+    event.preventDefault();
     setDropdownOpen(!dropdownOpen);
   }
 
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = (event) => {
+    event.stopPropagation();
+    setMobileMenuOpen(!mobileMenuOpen);
+  }
 
   const location = useLocation();
-  
+
   const getLinkClass = (path) => {
     if (location.pathname === path) {
       return "nav-link active-link";
@@ -42,35 +49,31 @@ const Navbar = () => {
   }
 
   return (
-    <header>
-      <div className="navbar">
+<header>
+    <div className="navbar">
+        <button onClick={toggleMobileMenu} className="mobile-menu-button">☰</button>
         <Link to={"/"} className="nav-link">
-          <div>
             <img src={logo} alt="StoreLogo" className="logo" />
-          </div>
         </Link>
-        <nav>
+        <nav className={mobileMenuOpen ? 'mobile-menu-open' : ''}>
           <ul className="navbarList">
             <li className="objectList">
               <NavLink to={"/"} className={getLinkClass("/")} >Inicio</NavLink>
             </li>
-
             <li className="objectList">
               <NavLink to={"/SobreMagi"} className={getLinkClass("/SobreMagi")} >Sobre magi</NavLink>
             </li>
-
-            <li className={`objectList dropdown ${dropdownOpen ? 'open' : ''}`}> 
-              <NavLink to={"/:category"} activeclassname="active-link"  className="nav-link" onClick={toggleDropdown}>Nuestros productos ↓ </NavLink>
+            <li className={`objectList dropdown ${dropdownOpen ? 'open' : ''}`}>
+              <NavLink to={"/:category"} activeclassname="active-link" className="nav-link" onClick={toggleDropdown}>Nuestros productos </NavLink>
               <div className="dropdown-content">
                 {['Souvenir', 'Papelería', 'Sublimados en madera', 'Textiles', 'Momento del mate', 'Para beber', 'Mascotas', 'Sellos'].map((category, index) => (
                   <div className="dropdown-item" key={index}>
-                    <img src={categoryImages[category]} alt={category} className="dropdown-image"/>
+                    <img src={categoryImages[category]} alt={category} className="dropdown-image" />
                     <p>{category}</p>
                   </div>
                 ))}
               </div>
             </li>
-
             <li className="objectList">
               <NavLink to={"/Contactos"} className={getLinkClass("/Contactos")} >Contáctanos</NavLink>
             </li>

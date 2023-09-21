@@ -19,6 +19,28 @@ header {
     width: 180px;
 }
 
+
+.mobile-menu-button {
+    display: none; 
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #2d929b; 
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+
+.mobile-menu-open {
+    display: block;
+    z-index: 10;
+}
+
 h1 {
     margin: 1rem;
     font-family: "Zen Dots", sans-serif;
@@ -32,7 +54,7 @@ h1 {
     display: inline-block;
     margin: 2rem;
     cursor: pointer;
-    font-size: large;
+    font-size: xx-large;
     transition: transform 0.2s ease;
     border-radius: 32px;
     width: 19%;
@@ -45,6 +67,7 @@ h1 {
     font-weight: bold;
     transition: all .5s ease;
     background-color: #d2e9a381;
+    margin-top: -1rem;
 }
 
 .nav-link {
@@ -66,8 +89,10 @@ h1 {
     color: rgb(255, 255, 255);
     border-radius: 32px;
     height: 65px;
+    width: 100%;
     text-align: center;
     padding-top: 1em;
+    margin-top: -1.1rem;
   }
 
 .active-link:hover,

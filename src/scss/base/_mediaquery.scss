@@ -3,13 +3,101 @@
         text-align: center;
         padding-left: 0;
     }
+
+    .logo {
+        width: 12vw;
+    }
+
+    .objectList{
+        font-size: medium;
+        margin:0;
+        padding-top:1em;
+        width: 24%;
+    }
+
+    .navbar{
+        height: 17vh;
+        width: 100vw;
+    }
+
+    
+    .navbarList{
+        width: 80vw;
+    }
 }
 
 @media screen and (max-width: 770px) {
     .sectionContacts .formContainer .row .namePhoneContainer {
         flex-direction: column;
     }
+
+    .objectList{
+        font-size: large;
+    }
+
+    .objectList:hover{
+        font-weight: bold;
+        transition: all .5s ease;
+        background-color: #d2e9a381;
+    }
+
+    .active-link {
+        padding-top: 1.2rem;
+
+    }
 }
+
+
+@media screen and (max-width:992px){
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+
+    .navbarList {
+        display: none; 
+    }
+  
+    .mobile-menu-button {
+        display: block; 
+    }
+
+  
+    .mobile-menu-open .navbarList {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(243, 243, 237);
+    }
+
+    .navbarList .objectList {
+        display: block; 
+        width: 75vw;
+        height: 15vh;  
+        margin: 0.5rem 0;
+        text-align: left;
+    }
+
+    .active-link {
+        text-align: left;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        
+    }
+
+    
+    .logo {
+        width: 30vw;
+        margin: 0 auto; 
+        margin-right: 7rem;
+    }
+
+}
+
 
 @media screen and (max-width: 460px) {
     .footer {
@@ -35,5 +123,47 @@
 
     .footer .footerContainer .iconsBoxMobile a {
         padding: 10px;
+    }
+
+    .objectList{
+        font-size: medium;
+    }
+
+    .active-link {
+        width: 90%;
+
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1076px) {
+
+    .logo {
+        width: 15vw;
+    }
+    
+    .objectList{
+        font-size: medium;
+        margin:0;
+        width: 23%;
+        padding-top:1em;
+    }
+
+    .navbar{
+        height: 18vh;
+        width: 100vw;
+    }
+    
+    .navbarList{
+        width: 78vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .objectList{
+        font-size: large;
+        margin:.5em;
     }
 }
