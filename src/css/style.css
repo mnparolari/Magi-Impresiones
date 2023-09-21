@@ -508,6 +508,10 @@ h1 {
   font-size: 60px;
   color: #007680;
 }
+.bodyHomeContainer .subtitleBodyHome {
+  font-size: 18px;
+  color: #007680;
+}
 .bodyHomeContainer .imgContainer {
   margin-top: 55px;
 }

@@ -8,7 +8,7 @@ const BodyHome = () => {
             <h3 className='titleBodyHome'>| Comunidad <span className='magiFont'>magi</span> |</h3>
             <br />
             <br />
-            <h3 className='titleBodyHome'>¡El producto más elegido!</h3>
+            <h3 className='subtitleBodyHome'>¡El producto más elegido!</h3>
             <div className='imgContainer'>
                 <img src={taza1} alt="" className='imgBodyHome'/>
                 <img src={taza2} alt="" className='imgBodyHome'/>
