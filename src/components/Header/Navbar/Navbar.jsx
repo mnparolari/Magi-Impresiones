@@ -68,8 +68,8 @@ const Navbar = () => {
               <NavLink activeclassname="active-link" className="nav-link" onClick={toggleDropdown}>Nuestros productos </NavLink>
               <div className="dropdown-content">
                 {['Souvenir', 'Papelería', 'Sublimados en madera', 'Textiles', 'Momento del mate', 'Para beber', 'Mascotas', 'Sellos'].map((category, index) => (
-                  <div className="dropdown-item" >
-                    <NavLink to={category} key={index}>
+                  <div className="dropdown-item" key={index} onClick={toggleDropdown}>
+                    <NavLink to={category}>
                       <img src={categoryImages[category]} alt={category} className="dropdown-image" />
                       <p>{category}</p>
                     </NavLink>

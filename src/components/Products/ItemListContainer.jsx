@@ -30,7 +30,7 @@ const ItemListContainer = () => {
 
 
   return (
-    <section>
+    <section style={{overflowY: 'hidden'}}>
       <ItemList products={products}></ItemList>
     </section>
   )

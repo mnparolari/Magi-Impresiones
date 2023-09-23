@@ -7,6 +7,7 @@
 .App {
   margin-top: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 
 .mainHome {
@@ -232,6 +233,25 @@ header {
   width: 180px;
 }
 
+.mobile-menu-button {
+  display: none;
+  font-size: 3rem;
+  background: none;
+  border: none;
+  color: #2d929b;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu-open {
+  display: block;
+  z-index: 10;
+}
+
 h1 {
   margin: 1rem;
   font-family: "Zen Dots", sans-serif;
@@ -245,7 +265,7 @@ h1 {
   display: inline-block;
   margin: 2rem;
   cursor: pointer;
-  font-size: large;
+  font-size: xx-large;
   transition: transform 0.2s ease;
   border-radius: 32px;
   width: 19%;
@@ -258,6 +278,7 @@ h1 {
   font-weight: bold;
   transition: all 0.5s ease;
   background-color: rgba(210, 233, 163, 0.5058823529);
+  margin-top: -1rem;
 }
 
 .nav-link {
@@ -278,6 +299,7 @@ h1 {
   color: rgb(255, 255, 255);
   border-radius: 32px;
   height: 65px;
+  width: 100%;
   text-align: center;
   padding-top: 1em;
 }
@@ -533,6 +555,9 @@ a:hover {
   margin-bottom: 55px;
 }
 
+.cardContainer {
+  overflow-y: hidden;
+}
 .cardContainer .card {
   border-radius: 25px;
   padding: 20px;
@@ -541,8 +566,8 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 15px;
 }
 .cardContainer .card .card-img-top {
@@ -575,10 +600,9 @@ a:hover {
 }
 
 .listContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow-y: hidden;
 }
 
 .floatWhatsapp {
@@ -594,10 +618,75 @@ a:hover {
     text-align: center;
     padding-left: 0;
   }
+  .logo {
+    width: 12vw;
+  }
+  .objectList {
+    font-size: medium;
+    margin: 0;
+    padding-top: 1em;
+    width: 24%;
+  }
+  .navbar {
+    height: 17vh;
+    width: 100vw;
+  }
+  .navbarList {
+    width: 80vw;
+  }
 }
 @media screen and (max-width: 770px) {
   .sectionContacts .formContainer .row .namePhoneContainer {
     flex-direction: column;
+  }
+  .objectList {
+    font-size: large;
+  }
+  .objectList:hover {
+    font-weight: bold;
+    transition: all 0.5s ease;
+    background-color: rgba(210, 233, 163, 0.5058823529);
+  }
+  .active-link {
+    padding-top: 1.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbarList {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: block;
+  }
+  .mobile-menu-open .navbarList {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(243, 243, 237);
+  }
+  .navbarList .objectList {
+    display: block;
+    width: 75vw;
+    height: 15vh;
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  .active-link {
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  .logo {
+    width: 30vw;
+    margin: 0 auto;
+    margin-right: 7rem;
   }
 }
 @media screen and (max-width: 460px) {
@@ -620,6 +709,36 @@ a:hover {
   }
   .footer .footerContainer .iconsBoxMobile a {
     padding: 10px;
+  }
+  .objectList {
+    font-size: medium;
+  }
+  .active-link {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1076px) {
+  .logo {
+    width: 15vw;
+  }
+  .objectList {
+    font-size: medium;
+    margin: 0;
+    width: 23%;
+    padding-top: 1em;
+  }
+  .navbar {
+    height: 18vh;
+    width: 100vw;
+  }
+  .navbarList {
+    width: 78vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .objectList {
+    font-size: large;
+    margin: 0.5em;
   }
 }
 
