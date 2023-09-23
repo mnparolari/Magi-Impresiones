@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "category": "Souvenir",
+        "product": "Llaveros",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product1.jpg"
+    },
+    {
+        "id": 2,
+        "category": "Papelería",
+        "product": "Sobres",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product2.jpg"
+    },
+    {
+        "id": 3,
+        "category": "Sublimados en madera",
+        "product": "Cucharas",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product3.png"
+    },
+    {
+        "id": 4,
+        "category": "Textiles",
+        "product": "Remeras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product4.jpg"
+    },
+    {
+        "id": 5,
+        "category": "Momento del mate",
+        "product": "Yerbera",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product5.jpg"
+    },
+    {
+        "id": 6,
+        "category": "Para beber",
+        "product": "Vasos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product6.png"
+    },
+    {
+        "id": 7,
+        "category": "Mascotas",
+        "product": "Collares",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product7.jpg"
+    },
+    {
+        "id": 8,
+        "category": "Sellos",
+        "product": "Sellos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product8.jpg"
+    },
+    {
+        "id": 9,
+        "category": "Souvenir",
+        "product": "Llaveros",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product1.jpg"
+    },
+    {
+        "id": 10,
+        "category": "Papelería",
+        "product": "Sobres",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product2.jpg"
+    },
+    {
+        "id": 11,
+        "category": "Sublimados en madera",
+        "product": "Cucharas",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product3.png"
+    },
+    {
+        "id": 12,
+        "category": "Textiles",
+        "product": "Remeras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product4.jpg"
+    },
+    {
+        "id": 13,
+        "category": "Momento del mate",
+        "product": "Yerbera",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product5.jpg"
+    },
+    {
+        "id": 14,
+        "category": "Para beber",
+        "product": "Vasos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product6.png"
+    },
+    {
+        "id": 15,
+        "category": "Mascotas",
+        "product": "Collares",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product7.jpg"
+    },
+    {
+        "id": 16,
+        "category": "Sellos",
+        "product": "Sellos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product8.jpg"
+    },
+    {
+        "id": 17,
+        "category": "Souvenir",
+        "product": "Llaveros",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product1.jpg"
+    },
+    {
+        "id": 18,
+        "category": "Papelería",
+        "product": "Sobres",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product2.jpg"
+    },
+    {
+        "id": 19,
+        "category": "Sublimados en madera",
+        "product": "Cucharas",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product3.png"
+    },
+    {
+        "id": 20,
+        "category": "Textiles",
+        "product": "Remeras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product4.jpg"
+    },
+    {
+        "id": 21,
+        "category": "Momento del mate",
+        "product": "Yerbera",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product5.jpg"
+    },
+    {
+        "id": 22,
+        "category": "Para beber",
+        "product": "Vasos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product6.png"
+    },
+    {
+        "id": 23,
+        "category": "Mascotas",
+        "product": "Collares",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product7.jpg"
+    },
+    {
+        "id": 24,
+        "category": "Sellos",
+        "product": "Sellos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product8.jpg"
+    },
+    {
+        "id": 25,
+        "category": "Souvenir",
+        "product": "Llaveros",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product1.jpg"
+    },
+    {
+        "id": 26,
+        "category": "Papelería",
+        "product": "Sobres",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product2.jpg"
+    },
+    {
+        "id": 27,
+        "category": "Sublimados en madera",
+        "product": "Cucharas",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product3.png"
+    },
+    {
+        "id": 28,
+        "category": "Textiles",
+        "product": "Remeras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product4.jpg"
+    },
+    {
+        "id": 29,
+        "category": "Momento del mate",
+        "product": "Yerbera",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product5.jpg"
+    },
+    {
+        "id": 30,
+        "category": "Para beber",
+        "product": "Vasos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product6.png"
+    },
+    {
+        "id": 31,
+        "category": "Mascotas",
+        "product": "Collares",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product7.jpg"
+    },
+    {
+        "id": 32,
+        "category": "Sellos",
+        "product": "Sellos",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "../image/product8.jpg"
+    }
+]
