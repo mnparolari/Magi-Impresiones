@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logomagi.png';
 import { Link, NavLink } from 'react-router-dom';
@@ -27,6 +27,20 @@ const categoryImages = {
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 992); // Utilizamos 992px como tu punto de ruptura para móviles
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 992);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const toggleDropdown = (event) => {
     event.preventDefault();
     setDropdownOpen(!dropdownOpen);
@@ -51,6 +65,7 @@ const Navbar = () => {
   return (
     <header>
       <div className="navbar">
+        <button onClick={toggleMobileMenu} className="mobile-menu-button">☰</button>
         <Link to={"/"} className="nav-link">
           <div>
             <img src={logo} alt="StoreLogo" className="logo" />
@@ -70,7 +85,7 @@ const Navbar = () => {
                 {['Souvenir', 'Papelería', 'Sublimados en madera', 'Textiles', 'Momento del mate', 'Para beber', 'Mascotas', 'Sellos'].map((category, index) => (
                   <div className="dropdown-item" key={index} onClick={toggleDropdown}>
                     <NavLink to={category}>
-                      <img src={categoryImages[category]} alt={category} className="dropdown-image" />
+                      {!isMobileView && <img src={categoryImages[category]} alt={category} className="dropdown-image" />}
                       <p>{category}</p>
                     </NavLink>
                   </div>

@@ -8,21 +8,28 @@
         width: 12vw;
     }
 
-    .objectList{
+    .objectList {
         font-size: medium;
-        margin:0;
-        padding-top:1em;
+        margin: 0;
+        padding-top: 1em;
         width: 24%;
     }
 
-    .navbar{
+    .navbar {
         height: 17vh;
         width: 100vw;
     }
 
-    
-    .navbarList{
+
+    .navbarList {
         width: 80vw;
+        padding-right: 1em;
+    }
+
+    .objectList.dropdown.open .dropdown-content {
+        width: 95vw;
+        margin-left: -3.5rem;
+        padding-right: 1rem;
     }
 }
 
@@ -31,72 +38,111 @@
         flex-direction: column;
     }
 
-    .objectList{
+    .objectList {
         font-size: large;
     }
 
-    .objectList:hover{
-        font-weight: bold;
-        transition: all .5s ease;
-        background-color: #d2e9a381;
-    }
+
 
     .active-link {
         padding-top: 1.2rem;
-
     }
+
+    .objectList.dropdown.open .dropdown-content {
+        padding-left: 9rem;
+        height: 35vh;
+        width: 130vw;
+        padding-top:1em;
+        padding-bottom: 1em;
+        margin-left:2.5rem;
+        margin-right: 1rem;
+    }
+
+
 }
 
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
     .navbar {
         display: flex;
         justify-content: space-between;
-        align-items: center; 
+        align-items: center;
     }
 
 
     .navbarList {
-        display: none; 
-    }
-  
-    .mobile-menu-button {
-        display: block; 
+        display: none;
     }
 
-  
+    .mobile-menu-button {
+        display: block;
+    }
+
+
     .mobile-menu-open .navbarList {
         display: block;
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: 95%;
         background-color: rgb(243, 243, 237);
     }
 
+    .navbarList {
+        height: 100vh;
+    }
+
     .navbarList .objectList {
-        display: block; 
+        display: block;
         width: 75vw;
-        height: 15vh;  
+        height: 7vh;
         margin: 0.5rem 0;
         text-align: left;
+        margin-bottom: 4rem;
     }
 
     .active-link {
         text-align: left;
         padding-left: 2rem;
         padding-top: 1rem;
-        
+
     }
 
-    
+
     .logo {
         width: 30vw;
-        margin: 0 auto; 
+        margin: 0 auto;
         margin-right: 7rem;
     }
 
+    .active-link:hover,
+    .active-link:focus {
+        padding-top: 1em;
+    }
+
+    .objectList.dropdown.open .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        overflow: initial;
+    }
+
+    .dropdown-content{
+        padding-left: 18rem;
+    }
+
+    .dropdown-item {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        height: 4vh;
+        width: 50%;
+        border-bottom: 1px solid #2d929b;
+        padding-top:1.5em;
+        padding-bottom: 0em;
+        margin-left: 3rem;
+    }
 }
+
 
 
 @media screen and (max-width: 460px) {
@@ -125,7 +171,7 @@
         padding: 10px;
     }
 
-    .objectList{
+    .objectList {
         font-size: medium;
     }
 
@@ -133,7 +179,30 @@
         width: 90%;
 
     }
+
+    .dropdown-item{
+        width: 90%;
+    }
     
+    .objectList.dropdown.open .dropdown-content {
+        width: 105vw;
+        padding-left: 7rem;
+        height: 35vh;
+        width: 110vw;
+        padding-top:1em;
+        padding-bottom: 1em;
+        margin-left:0;
+        margin-right: 1rem;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) {
+    .navbarList {
+        line-height: 1.5;
+    }
+
 }
 
 
@@ -143,27 +212,41 @@
     .logo {
         width: 15vw;
     }
-    
-    .objectList{
+
+    .objectList {
         font-size: medium;
-        margin:0;
+        margin: 0;
         width: 23%;
-        padding-top:1em;
+        padding-top: 1em;
     }
 
-    .navbar{
+    .navbar {
         height: 18vh;
         width: 100vw;
     }
-    
-    .navbarList{
+
+    .navbarList {
         width: 78vw;
     }
+
+    .objectList.dropdown.open .dropdown-content {
+        width: 95vw;
+        margin-left: -3.5rem;
+        padding-right: 1rem;
+    }
+
+
 }
 
 @media screen and (min-width: 1200px) {
-    .objectList{
+    .objectList {
         font-size: large;
-        margin:.5em;
+        margin: .5em;
+    }
+
+    .objectList.dropdown.open .dropdown-content {
+        width: 95vw;
+        margin-left: -6.5rem;
+        margin-right: -6.5rem;
     }
 }
