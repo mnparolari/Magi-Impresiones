@@ -19,7 +19,6 @@ header {
     width: 180px;
 }
 
-
 .mobile-menu-button {
     display: none; 
     font-size: 3rem;
@@ -28,13 +27,16 @@ header {
     color: #2d929b; 
     cursor: pointer;
     margin-left: 1rem;
+    transition: all .3s ease;
 }
 
+.mobile-menu-button:active {
+    transition: all .3s ease;
+}
 
 .mobile-menu {
     display: none;
 }
-
 
 .mobile-menu-open {
     display: block;
@@ -65,9 +67,8 @@ h1 {
 
 .objectList:hover {
     font-weight: bold;
-    transition: all .5s ease;
+    transition: all .3s ease;
     background-color: #d2e9a381;
-    margin-top: -1rem;
 }
 
 .nav-link {
@@ -80,7 +81,6 @@ h1 {
     color: inherit;
 }
 
-
 .active-link {
     box-sizing: border-box;
     letter-spacing: 2px;
@@ -91,13 +91,13 @@ h1 {
     height: 65px;
     width: 100%;
     text-align: center;
-    padding-top: 1em;
-  }
+    padding-top: 0em;   
+}
 
 .active-link:hover,
 .active-link:focus {
     color: white;
-    padding-top: 1em;
+    padding-top: 0em;  
 }
 
 .objectList.dropdown {
@@ -127,21 +127,22 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 15vw;
+    width: 17vw;
     height: 15vh;
     position: relative;
-    padding: 10px;
+    padding: 15px;
     transition: background-color 0.3s ease;
+}
 
-    &:hover .dropdown-image {
-        background-color: #d2e9a3b9;
-    }
+.dropdown-item:hover .dropdown-image {
+    background-color: #d2e9a3b9;
 }
 
 .dropdown-image {
     transition: background-color 0.2s ease;
     padding: 10px;
     border-radius: 15px;
+    height: 6vh;
 }
 
 a {
