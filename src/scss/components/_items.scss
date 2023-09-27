@@ -1,5 +1,6 @@
 .cardContainer {
     overflow-y: hidden;
+    
     .card {
         border-radius: 25px;
         padding: 20px;
@@ -49,11 +50,8 @@
 }
 
 .listContainer {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // margin-bottom: 55px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow-y: hidden;
+    padding: 20px
 }
