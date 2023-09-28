@@ -1,19 +1,19 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import Navbar from '../components/Header/Navbar/Navbar'
+import Navbar from '../components/Header/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import Home from '../components/Home/Home'
 import About from '../components/About/About'
 import Contacts from '../components/Contacts/Contacts'
 import ItemListContainer from '../components/Products/ItemListContainer'
 import ButtonWhatsapp from '../components/ButtonWhatsapp/ButtonWhatsapp'
-import NavbarBootstrap from '../components/Header/Navbar/NavbarBootstrap'
+// import NavbarBootstrap from '../components/Header/Navbar/NavbarBootstrap'
 
 const RoutesNavigation = () => {
     return (
         <BrowserRouter>
-            {/* <Navbar /> */}
-            <NavbarBootstrap />
+            <Navbar />
+            {/* <NavbarBootstrap /> */}
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/sobremagi' element={<About />} />
