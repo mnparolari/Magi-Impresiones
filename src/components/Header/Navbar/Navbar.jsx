@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logomagi.png';
 import { Link, NavLink } from 'react-router-dom';
-import '../../../scss/components/_navbar.scss';
-import '../../../scss/base/_mediaquery.scss';
 import souvenirImg from '../../../assets/images/souvenir.png';
 import papeleriaImg from '../../../assets/images/papeleria.png';
 import maderaImg from '../../../assets/images/madera.png';
@@ -77,7 +75,7 @@ const Navbar = () => {
               <NavLink to={"/"} className={getLinkClass("/")} >Inicio</NavLink>
             </li>
             <li className="objectList">
-              <NavLink to={"/SobreMagi"} className={getLinkClass("/SobreMagi")} >Sobre magi</NavLink>
+              <NavLink to={"/SobreMagi"} className={getLinkClass("/sobremagi")} >Sobre magi</NavLink>
             </li>
             <li className={`objectList dropdown ${dropdownOpen ? 'open' : ''}`}>
               <NavLink activeclassname="active-link" className="nav-link" onClick={toggleDropdown}>Nuestros productos </NavLink>
@@ -93,7 +91,7 @@ const Navbar = () => {
               </div>
             </li>
             <li className="objectList">
-              <NavLink to={"/Contactos"} className={getLinkClass("/Contactos")} >Contáctanos</NavLink>
+              <NavLink to={"/Contactos"} className={getLinkClass("/contactos")} >Contáctanos</NavLink>
             </li>
           </ul>
         </nav>

@@ -14,9 +14,9 @@ const RoutesNavigation = () => {
             <Navbar />
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/SobreMagi' element={<About />} />
+                <Route path='/sobremagi' element={<About />} />
                 <Route path="/:category" element={<ItemListContainer />} />
-                <Route path='/Contactos' element={<Contacts />} />
+                <Route path='/contactos' element={<Contacts />} />
                 <Route path="*" element={<h1>404 NOT FOUND</h1>} />
             </Routes>
             <ButtonWhatsapp />
