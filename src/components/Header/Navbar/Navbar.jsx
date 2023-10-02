@@ -10,6 +10,8 @@ import mateImg from '../../../assets/images/mate.png';
 import beberImg from '../../../assets/images/beber.png';
 import mascotasImg from '../../../assets/images/mascotas.png';
 import sellosImg from '../../../assets/images/sellos.png';
+import '../../../scss/components/_navbar.scss'
+import '../../../scss/base/_mediaquery.scss'
 
 const categoryImages = {
   'Souvenir': souvenirImg,
@@ -77,6 +79,10 @@ const Navbar = () => {
             <li className="objectList">
               <NavLink to={"/SobreMagi"} className={getLinkClass("/sobremagi")} >Sobre magi</NavLink>
             </li>
+
+
+
+
             <li className={`objectList dropdown ${dropdownOpen ? 'open' : ''}`}>
               <NavLink activeclassname="active-link" className="nav-link" onClick={toggleDropdown}>Nuestros productos </NavLink>
               <div className="dropdown-content">
@@ -90,6 +96,10 @@ const Navbar = () => {
                 ))}
               </div>
             </li>
+
+
+
+
             <li className="objectList">
               <NavLink to={"/Contactos"} className={getLinkClass("/contactos")} >Contáctanos</NavLink>
             </li>

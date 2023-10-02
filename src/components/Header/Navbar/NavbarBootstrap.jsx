@@ -9,7 +9,8 @@ import beberImg from '../../../assets/images/beber.png';
 import mascotasImg from '../../../assets/images/mascotas.png';
 import sellosImg from '../../../assets/images/sellos.png';
 import logo from '../../../assets/images/logomagi.png';
-
+import '../../../scss/components/_navbarBootstrap.scss'
+import '../../../scss/base/_mediaquery.scss'
 
 const categorys = [
     {
@@ -67,13 +68,14 @@ const NavbarBootstrap = () => {
                 setIsDropdownOpen(false);
             }
         }
-        document.addEventListener('mousedown', handleClickOutside);
+        document.addEventListener('click', handleClickOutside);
         return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('click', handleClickOutside);
         };
     }, []);
 
-    const toggleDropdown = () => {
+    const toggleDropdown = (e) => {
+        e.stopPropagation();
         setIsDropdownOpen(!isDropdownOpen);
     };
 
@@ -89,14 +91,16 @@ const NavbarBootstrap = () => {
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <div className="container">
-                        <Link to={"/"} className="nav-link-logo">
-                            <img src={logo} alt="StoreLogo" className="logo" />
-                        </Link>
+                    <div className="container-mobile">
+                        <div className="container">
+                            <Link to={"/"} className="nav-link-logo">
+                                <img src={logo} alt="StoreLogo" className="logo" />
+                            </Link>
+                        </div>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon">☰</span>
+                        </button>
                     </div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon">☰</span>
-                    </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
@@ -118,8 +122,8 @@ const NavbarBootstrap = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink className={`nav-link-home ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
-                                    onClick={() => {
-                                        toggleDropdown();
+                                    onClick={(e) => {
+                                        toggleDropdown(e);
                                         activateLink('NuestroProductos');
                                         activateCategory(null);
                                     }}
@@ -127,6 +131,23 @@ const NavbarBootstrap = () => {
                                     style={{ whiteSpace: 'nowrap' }}>
                                     Nuestros productos
                                 </NavLink>
+                                {/* Componente para versión móvil */}
+                                {isDropdownOpen && (
+                                    <div className="mobile-category-container">
+                                        <ul className="mobile-category-list">
+                                            {categorys.map(({ name, path }) => (
+                                                <li className="mobileCategories" key={name}>
+                                                    <NavLink to={path} onClick={() => { 
+                                                        setIsDropdownOpen(false);
+                                                        activateCategory(name);
+                                                    }}>
+                                                        {name}
+                                                    </NavLink>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
                             </li>
                             <li className="nav-item">
                                 <NavLink to={'/contactos'} className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
@@ -145,7 +166,8 @@ const NavbarBootstrap = () => {
                     {categorys.map(({ name, img, path }) => (
                         <div className="nav-item-category" key={name}>
                             <NavLink className="nav-link-category" to={path} onClick={() => activateCategory(name)}>
-                                <img src={img} alt={name} className={`imgCategory ${name === activeCategory ? 'active-link' : ''}`} />
+                                <div className="divImgCateg"><img src={img} alt={name} className={`imgCategory ${name === activeCategory ? 'active-link' : ''}`} />
+                                </div>
                                 <p className='nameCategory'>{name}</p>
                             </NavLink>
                         </div>
