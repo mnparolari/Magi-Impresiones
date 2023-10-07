@@ -46,7 +46,6 @@ header {
  .nav-item {
      padding-left: 40px;
      padding-right: 40px;
-
  }
 
  .nav-link-home {
@@ -71,8 +70,8 @@ header {
  }
 
  .nav-link-contacts {
-     padding-left: 30px;
-     padding-right: 30px;
+     padding-left: 15px;
+     padding-right: 15px;
      color: nth($color-palette, 1);
      text-decoration: none;
  }
@@ -135,7 +134,7 @@ header {
      justify-content: center;
      align-items: center;
      height: 120px;
-     width: 100%;
+     width: 95%;
  }
 
  .nav-link-category {
@@ -213,8 +212,8 @@ header {
      padding-top: 15px;
      padding-bottom: 15px;
      border-radius: 30px;
- }
-
+     margin-right: 10px;
+    }
  .active-link-contacts {
      background-color: nth($color-palette, 1);
      color: #fff;

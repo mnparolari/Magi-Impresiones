@@ -310,20 +310,45 @@
         line-height: 1.5;
     }*/
     .container{
-        width: 14vw;
+        width: 0vw;
     }
     .cotainer-mobile{
         width: 14vw;
     }
-    .nav-item{
-        width: 15vw;
-        margin-right: 2.5rem;
+
+    .logo{
+        width: 150px;
     }
-    
+
+    .nav-item{
+        width: 13vw;
+        margin-right: 4rem;
+        margin-left: 2rem;
+    }
+
+    #inicio{
+        margin-right: -1.5rem;
+    } 
+
+    #aboutmagi{
+        margin-right: 3rem;
+    }
+
+    #nuestrosprods{
+        margin-left:1.3rem;
+        margin-right: 5rem;
+
+    }
+
+    #contactos{
+        margin-right: -1rem;
+    }
+
     .navbar-nav {
-        width: 75vw;
+        width: 80vw;
         margin-left: 1rem;
-        margin-right: 1;
+        margin-right: 1rem;
+        margin-top:2rem;
     }
 
     .categoryMenu {
@@ -374,6 +399,8 @@
 
     .navbar-nav {
         font-size: large;
+        margin-top: 1rem;
+        margin-left: 5rem;
     }
 
     .nav-item{
@@ -385,6 +412,9 @@
 
     .container-mobile{
         margin-top: 2rem;
+    }
+    .logo{
+        width: 200px;
     }
 
     /*.objectList {

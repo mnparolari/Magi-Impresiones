@@ -103,7 +103,7 @@ const NavbarBootstrap = () => {
                     </div>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
+                            <li className="nav-item" id="inicio">
                                 <NavLink to={'/'} className={`nav-link-home ${activeLink === 'Inicio' ? 'active-link-home' : ''}`}
                                     onClick={() => {
                                         activateLink('Inicio');
@@ -111,7 +111,7 @@ const NavbarBootstrap = () => {
                                     }}>
                                     Inicio</NavLink>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item" id="aboutmagi">
                                 <NavLink to={'/sobremagi'} className={`nav-link-home ${activeLink === 'SobreMagi' ? 'active-link-about' : ''}`}
                                     onClick={() => {
                                         activateLink('SobreMagi');
@@ -120,7 +120,7 @@ const NavbarBootstrap = () => {
                                     style={{ whiteSpace: 'nowrap' }}>
                                     Sobre <span className='magiFontNav'>magi</span></NavLink>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item" id="nuestrosprods">
                                 <NavLink className={`nav-link-home ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
                                     onClick={(e) => {
                                         toggleDropdown(e);
@@ -149,7 +149,7 @@ const NavbarBootstrap = () => {
                                     </div>
                                 )}
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item" id="contactos">
                                 <NavLink to={'/contactos'} className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
                                     onClick={() => {
                                         activateLink('Contactos');
