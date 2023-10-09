@@ -7,12 +7,12 @@ import About from '../components/About/About'
 import Contacts from '../components/Contacts/Contacts'
 import ItemListContainer from '../components/Products/ItemListContainer'
 import ButtonWhatsapp from '../components/ButtonWhatsapp/ButtonWhatsapp'
- import NavbarBootstrap from '../components/Header/Navbar/NavbarBootstrap'
+import NavbarBootstrap from '../components/Header/Navbar/NavbarBootstrap'
 
 const RoutesNavigation = () => {
     return (
         <BrowserRouter>
-           { /*<Navbar />*/}
+            { /*<Navbar />*/}
             <NavbarBootstrap />
             <Routes>
                 <Route path='/' element={<Home />} />
