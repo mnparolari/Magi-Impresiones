@@ -42,10 +42,11 @@ header {
     justify-content: center;
 }
 
-.nav-item {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+ .nav-item {
+     padding-left: 40px;
+     padding-right: 40px;
+
+ }
 
 .nav-link-home {
     padding-left: 45px;
@@ -68,12 +69,12 @@ header {
     text-decoration: none;
 }
 
-.nav-link-contacts {
-    padding-left: 30px;
-    padding-right: 30px;
-    color: nth($color-palette, 1);
-    text-decoration: none;
-}
+ .nav-link-contacts {
+     padding-left: 30px;
+     padding-right: 30px;
+     color: nth($color-palette, 1);
+     text-decoration: none;
+ }
 
 .nav-link-home:hover {
     padding-top: 15px;
@@ -127,14 +128,14 @@ header {
     font-size: 2rem;
 }
 
-.categoryMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    width: 100%;
-}
+ .categoryMenu {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 120px;
+     width: 100%;
+ }
 
 .nav-link-category {
     display: flex;
@@ -206,21 +207,21 @@ header {
     border-radius: 30px;
 }
 
-.active-link-products {
-    background-color: nth($color-palette, 1);
-    color: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 30px;
-}
+ .active-link-products {
+     background-color: nth($color-palette, 1);
+     color: #fff;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-radius: 30px;
+ }
 
-.active-link-contacts {
-    background-color: nth($color-palette, 1);
-    color: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 30px;
-}
+ .active-link-contacts {
+     background-color: nth($color-palette, 1);
+     color: #fff;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-radius: 30px;
+ }
 
 .active-link {
     background-color: #D2E9A3;
