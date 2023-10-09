@@ -501,6 +501,7 @@ a {
   font-family: "Raleway", sans-serif;
   color: #007680;
   font-size: 25px;
+  margin-bottom: 100px;
 }
 
 .image-container .textContainer .textCarousel {
@@ -911,6 +912,7 @@ header {
 @media screen and (max-width: 992px) {
   header {
     padding-left: 0rem;
+    margin-bottom: 70px;
   }
   .navbar-nav {
     background-color: rgba(252, 252, 249, 0.918);
@@ -1038,6 +1040,36 @@ header {
       padding-bottom: 0em;
       margin-left: 3rem;
   }*/
+}
+@media screen and (max-width: 860px) {
+  .image-container .textContainer .titleCarousel {
+    font-size: 20px;
+  }
+  .image-container .textContainer .titleCarousel .magiFont {
+    font-size: 50px;
+  }
+  .image-container .textContainer .textCarousel {
+    display: none;
+  }
+  .image-container .textContainer .btn {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .image-container .textContainer .btn {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .image-container .textContainer .titleCarousel {
+    font-size: 15px;
+  }
+  .image-container .textContainer .titleCarousel .magiFont {
+    font-size: 40px;
+  }
+  .image-container .textContainer .btn {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 460px) {
   .footer {

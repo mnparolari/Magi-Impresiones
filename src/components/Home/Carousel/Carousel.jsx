@@ -22,15 +22,11 @@ const Carousel = () => {
                             <img src={carousel1} className="d-block w-100" alt="Magi" />
                             <div className='textContainer'>
                                 <h5 className='titleCarousel'><span className='magiFont'>magi</span> es regalos, originalidad, innovación y autenticidad.</h5>
-                                <br />
-                                <br />
                                 {hovered && (
                                     <div className="overlay">
                                         <button className="btn btn-one" onClick={() => navigate(`/papeleria`)}>Quiero ver más</button>
                                     </div>
                                 )}
-                                <br />
-                                <br />
                                 <p className='textCarousel'>Nos caracterizamos por buscar e innovar en productos, manteniendo una excelente calidad del producto final.</p>
                             </div>
                         </div>
@@ -46,15 +42,11 @@ const Carousel = () => {
                             <img src={carousel2} className="d-block w-100" alt="Magi" />
                             <div className='textContainer'>
                                 <h5 className='titleCarousel'>En <span className='magiFont'>magi</span> tenemos una amplia variedad de productos.</h5>
-                                <br />
-                                <br />
                                 {hovered && (
                                     <div className="overlay">
                                         <button className="btn btn-two" onClick={() => navigate(`/regalosespeciales`)}>Quiero ver más</button>
                                     </div>
                                 )}
-                                <br />
-                                <br />
                                 <p className='textCarousel'>Impresiones, fotocopias, anillados, plastificados, agendas, cuadernos de seguimiento docente, tazas, remeras, pad mouse, textiles, souvenirs, llaveros, objetos en madera. Y la última incorporación... ¡Sellos de goma personalizados!</p>
                             </div>
                         </div>
@@ -70,15 +62,11 @@ const Carousel = () => {
                             <img src={carousel3} className="d-block w-100" alt="..." />
                             <div className='textContainer'>
                                 <h5 className='titleCarousel'>¡No dejes pasar la oportunidad de convertir tu cumpleaños en un evento mágico y personalizado! </h5>
-                                <br />
-                                <br />
                                 {hovered && (
                                     <div className="overlay">
                                         <button className="btn btn-three" onClick={() => navigate(`/souvenir`)}>Quiero ver más</button>
                                     </div>
                                 )}
-                                <br />
-                                <br />
                                 <p className='textCarousel'>Los llaveros de madera sublimados de magi Impresiones son el regalo perfecto que tus invitados adorarán.</p>
                             </div>
                         </div>
