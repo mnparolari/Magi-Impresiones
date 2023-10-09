@@ -19,7 +19,7 @@ const ItemListContainer = () => {
   };
 
   useEffect(() => {
-    fetch('../data/mockData.json')
+    fetch('../data/products.json')
       .then((res) => res.json())
       .then((data) => {
         const filteredProducts = data.filter((product) => product.category === category);

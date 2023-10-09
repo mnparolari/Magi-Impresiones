@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "category": "souvenir",
+    "product": "Llaveros",
+    "description": "Llaveros de madera personalizados (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2FLlaveros%20de%20madera%20personalizados%20(Varios%20modelos).jpg?alt=media&token=3ea3e061-f004-494d-b25a-814a5d9ab453&_gl=1*1icsxig*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTY5ODkuMi4wLjA."
+  },
+  {
+    "id": 2,
+    "category": "souvenir",
+    "product": "Llaveros",
+    "description": "Llaveros polímero (sublimado en ambos lados).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2Fllaveros.jpg?alt=media&token=811ee029-a26d-4d89-97d4-cb954239586a&_gl=1*1pz4hw7*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjI3MzkuNDEuMC4w"
+  },
+  {
+    "id": 3,
+    "category": "souvenir",
+    "product": "Señaladores",
+    "description": "Señaladores imantados personalizados.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2FSe%C3%B1aladores%20imantados%20personalizados.jpg?alt=media&token=3bf1a913-9f7d-4cbd-92cb-3bd8dab8c272&_gl=1*10hxkhy*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTcwOTUuNDQuMC4w"
+  },
+  {
+    "id": 4,
+    "category": "souvenir",
+    "product": "Botellas",
+    "description": "Botellas personalizadas (con tapa y sorbete).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2FBotellas%20personalizadas%20(Con%20tapa%20y%20sorbete)%20.jpg?alt=media&token=08260f3d-959d-4431-b575-0398c06f924d&_gl=1*1uda15h*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTcyMTAuNjAuMC4w"
+  },
+  {
+    "id": 5,
+    "category": "souvenir",
+    "product": "Bolsas",
+    "description": "Bolsitas de tela (motivo a elección).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2FBolsitas%20de%20tela%20(motivo%20a%20elecci%C3%B3n).jpg?alt=media&token=adfbdf14-1121-4b47-8be6-aea6e04b8838&_gl=1*p8jlfh*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTcyMjMuNDcuMC4w"
+  },
+  {
+    "id": 6,
+    "category": "souvenir",
+    "product": "Almanaques",
+    "description": "Almanaques personalizados imantado entero (tamaño grande).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2FAlmanaques%20personalizados%20imantado%20entero%20(Tama%C3%B1o%20grande).jpg?alt=media&token=7fe40da3-a0ca-4336-92b5-6c3caa6ad100&_gl=1*1211e7h*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTcyOTEuNjAuMC4w"
+  },
+  {
+    "id": 7,
+    "category": "souvenir",
+    "product": "Almanaques",
+    "description": "Almanaques personalizados imantado entero (tamaño chico).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2FAlmanaques%20personalizados%20con%20im%C3%A1n%20(Tama%C3%B1o%20chico).jpg?alt=media&token=aed8f2b7-4523-4ad8-beb9-8a16418f4c0f&_gl=1*l04z0r*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTczMjEuMzAuMC4w"
+  },
+  {
+    "id": 8,
+    "category": "textiles",
+    "product": "Almohadones",
+    "description": "Almohadones personalizados (20cm x 20cm).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FAlmohadones%20personalizados%20(20x%2020%20cm).jpg?alt=media&token=cef3b209-4b73-44e6-8576-aa7c07b63200&_gl=1*1aykwiu*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc1NDQuNjAuMC4w"
+  },
+  {
+    "id": 9,
+    "category": "textiles",
+    "product": "Almohadones",
+    "description": "Almohadón de nacimiento (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FAlmohad%C3%B3n%20de%20nacimiento%20(Varios%20modelos).jpg?alt=media&token=067facb5-4ca9-417d-afd3-0884ffa11385&_gl=1*1iwddi5*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc1NzMuMzEuMC4w"
+  },
+  {
+    "id": 10,
+    "category": "textiles",
+    "product": "Box familiar",
+    "description": "Box de anuncio de nacimiento (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FBox%20de%20anuncio%20de%20embarazo%20(Varios%20modelos).jpg?alt=media&token=61bed824-d9e5-4195-ba6e-4405a3215f40&_gl=1*1c78cg7*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc2MjAuNjAuMC4w"
+  },
+  {
+    "id": 11,
+    "category": "textiles",
+    "product": "Formitas para chicos",
+    "description": "Cajón con formitas de frutas y verduras (incluye 9 formitas).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FCaj%C3%B3n%20con%20formitas%20verduras_%20Comidas%20r%C3%A1pidas_%20Cafeter%C3%ADa_%20Herramientas%20(Incluye%209%20formitas).jpg?alt=media&token=24cd9d3b-8c64-4421-8f82-7ae063c47acd&_gl=1*1pfgo2a*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc2NzkuMS4wLjA."
+  },
+  {
+    "id": 12,
+    "category": "textiles",
+    "product": "Cintas y etiquetas de tela",
+    "description": "Cintas de raso sublimadas (por metro).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FCinta%20de%20raso%20sublimada%20(Por%20metro).jpg?alt=media&token=9672ad2d-75a5-4e49-906e-f6fca62896b8&_gl=1*vky38p*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjMzMDQuMzQuMC4w"
+  },
+  {
+    "id": 13,
+    "category": "textiles",
+    "product": "Gorras",
+    "description": "Color y modelos a elección y personalizados.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FGorra%20(Color%20y%20modelo%20a%20elecci%C3%B3n).jpg?alt=media&token=5904b012-8f00-49d6-b6ab-506a1019ad12&_gl=1*1f6axha*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc4MzYuNjAuMC4w"
+  },
+  {
+    "id": 14,
+    "category": "textiles",
+    "product": "Personajes",
+    "description": "Kit de personajes (a elección).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FKit%20de%20personajes%20(personajes%20a%20elecci%C3%B3n).jpg?alt=media&token=0fefc728-3789-4f0a-8408-feabf6d623d9&_gl=1*10h7w59*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc4ODAuMTYuMC4w"
+  },
+  {
+    "id": 15,
+    "category": "textiles",
+    "product": "Mochilas",
+    "description": "Mochilas sublimadas (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FMochila%20sublimada%20(Varios%20modelos).jpg?alt=media&token=e19aba35-e9e1-455b-8a60-db2bb95df40b&_gl=1*1r6sx0g*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc5MzUuNTAuMC4w"
+  },
+  {
+    "id": 16,
+    "category": "textiles",
+    "product": "Neceser",
+    "description": "Varios modelos.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FNeceser%20(Varios%20modelos).jpg?alt=media&token=21ffbbe2-20ee-4ff4-9d58-70c13bc28dd5&_gl=1*19jcmko*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTc5NjYuMTkuMC4w"
+  },
+  {
+    "id": 17,
+    "category": "souvenir",
+    "product": "Fotos",
+    "description": "Fotos tipo Polaroid",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Souvenirs%2Ffotos.jpg?alt=media&token=9dc6971f-05cb-413b-bf90-60919da47524&_gl=1*1ebl5qd*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjIxNzcuNTIuMC4w"
+  },
+  {
+    "id": 18,
+    "category": "textiles",
+    "product": "Bodys",
+    "description": "Prendas recién nacidos.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FPrenda%20reci%C3%A9n%20nacidos%20personalizada%20.jpg?alt=media&token=a4ff4394-c726-4b4a-a7c3-53356af014f6&_gl=1*swkv6a*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTgwMDkuNTYuMC4w"
+  },
+  {
+    "id": 19,
+    "category": "textiles",
+    "product": "Escolares",
+    "description": "Set de colegio personalizado, con nombre y personaje a elección (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2FSet%20de%20jard%C3%ADn%20personalizado%2C%20nombre%20y%20personaje%20(Varios%20modelos).jpg?alt=media&token=b3e529ce-b865-4411-8e6c-47373d2fc914&_gl=1*q2pwcn*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTgwNjEuNC4wLjA."
+  },
+  {
+    "id": 20,
+    "category": "textiles",
+    "product": "Billeteras",
+    "description": "Varios modelos.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2Fbolsos.jpg?alt=media&token=083b6ff4-2756-475c-bbf2-7b3b86837479&_gl=1*1oxs80s*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA5NjUuNC4wLjA."
+  },
+  {
+    "id": 21,
+    "category": "parabeber",
+    "product": "Botellas",
+    "description": "Con pico y personalizadas.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FBotella%20con%20pico%20(Varios%20modelos).jpg?alt=media&token=12fc5228-9c13-409b-b330-ede562371c51&_gl=1*1kiqwrq*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTgyMTIuNDguMC4w"
+  },
+  {
+    "id": 22,
+    "category": "parabeber",
+    "product": "Chops",
+    "description": "Chops cerveceros polímero (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FChop%20pol%C3%ADmero%20(Varios%20modelos).jpg?alt=media&token=db6cb7db-8e8b-4840-aa22-b83c409f8a85&_gl=1*1besr5k*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTgyODMuNjAuMC4w"
+  },
+  {
+    "id": 23,
+    "category": "parabeber",
+    "product": "Tazas",
+    "description": "Cerámica personalizadas (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FTaza%20cer%C3%A1mica%20personalizada%20(Varios%20modelos).png?alt=media&token=8f6c1c3e-db9f-4ede-ac22-ab0194871f47&_gl=1*qwqlq8*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTgzMjAuMjMuMC4w"
+  },
+  {
+    "id": 24,
+    "category": "parabeber",
+    "product": "Tazas",
+    "description": "Con efecto 3D (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FTaza%20con%20efecto%203D%20(Varios%20modelos).jpg?alt=media&token=216e368a-fb05-4f8f-b743-9a002a60dbaf&_gl=1*1ni9b39*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTgzNTguNjAuMC4w"
+  },
+  {
+    "id": 25,
+    "category": "parabeber",
+    "product": "Tazas",
+    "description": "Espejadas (varios modelos y colores).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FTaza%20espejada%20(Varios%20modelos).jpeg?alt=media&token=285c73b8-ca6b-432f-ba4d-d1c10e761729&_gl=1*1pjjup7*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjQxOTEuNDYuMC4w"
+  },
+  {
+    "id": 26,
+    "category": "parabeber",
+    "product": "Tazas",
+    "description": "Con glitter (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FTaza%20glitter%20(Varios%20modelos).jpg?alt=media&token=8e73ed95-d16a-476e-9862-2aedb59b1657&_gl=1*elzr57*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjMxMTcuMzQuMC4w"
+  },
+  {
+    "id": 27,
+    "category": "parabeber",
+    "product": "Tazas",
+    "description": "Mágicas (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FTaza%20m%C3%A1gica%20(Varios%20modelos).jpg?alt=media&token=4425e6ca-ff62-4ecb-b151-45fc656bf51a&_gl=1*7jml0x*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTg0NzQuOC4wLjA."
+  },
+  {
+    "id": 28,
+    "category": "parabeber",
+    "product": "Tazas",
+    "description": "Para colorear (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FTaza%20para%20colorear%20(Varios%20modelos).jpg?alt=media&token=06a10153-67c1-4a84-b840-24695adcd7b3&_gl=1*1qq3x0*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTg1MTkuNjAuMC4w"
+  },
+  {
+    "id": 29,
+    "category": "parabeber",
+    "product": "Vasos",
+    "description": "Térmicos (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Para%20beber%2FVaso%20t%C3%A9rmico%20(Varios%20modelos).jpg?alt=media&token=ce717841-177e-4844-a0d8-3108cc93303b&_gl=1*zaqi33*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTg1NTEuMjguMC4w"
+  },
+  {
+    "id": 30,
+    "category": "papeleria",
+    "product": "Adhesivos",
+    "description": "Cortada o sin cortar (personalizadas).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FAdhesivos%20(Cortados%20o%20sin%20recortar).jpg?alt=media&token=59e9db02-334a-4056-9c0f-03d0361b5a1b&_gl=1*1ra0x6v*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjMyMjAuNTcuMC4w"
+  },
+  {
+    "id": 31,
+    "category": "papeleria",
+    "product": "Bandejas",
+    "description": "Impresas (personalizadas).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FBandeja%20impresa%20(Varios%20modelos).jpg?alt=media&token=183930b2-9120-435a-bbac-d9a1f4461b48&_gl=1*eu3ium*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTkyMzUuMjMuMC4w"
+  },
+  {
+    "id": 32,
+    "category": "papeleria",
+    "product": "Cajas",
+    "description": "Explosivas y con sorpresas (de 4 o 6 lados).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FCaja%20explosiva%20(De%204%20lados%20o%206%20lados).jpg?alt=media&token=ce5cb976-2181-4a39-a6d8-dad8bbdceac1&_gl=1*w5pyu4*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjE1MDUuNTUuMC4w"
+  },
+  {
+    "id": 33,
+    "category": "papeleria",
+    "product": "Cuadernillos",
+    "description": "Apoyo escolar en casa",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FCuadernillo%20de%20apoyo%20en%20casa.jpg?alt=media&token=d2c08e52-3a94-4593-8dec-7485d57267dc&_gl=1*jo5az3*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTkzNDAuNjAuMC4w"
+  },
+  {
+    "id": 34,
+    "category": "papeleria",
+    "product": "Agendas",
+    "description": "De embarazo (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FCuaderno%20agenda%20embarazo%20(Varios%20modelos).jpg?alt=media&token=d28409e2-12f6-4661-b711-44d0f73c59e4&_gl=1*mogbhf*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjE3MTMuNjAuMC4w"
+  },
+  {
+    "id": 35,
+    "category": "papeleria",
+    "product": "Cuadernos",
+    "description": "Seguimiento docente (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FCuaderno%20de%20seguimiento%20docente%20(Varios%20modelos).jpg?alt=media&token=7958d41f-5b22-459d-a81d-2b42e2c60ab1&_gl=1*1yoom65*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk0MjEuNjAuMC4w"
+  },
+  {
+    "id": 36,
+    "category": "papeleria",
+    "product": "Etiquetas",
+    "description": "Escolares (personalizadas).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FEtiquetas%20escolares%20personalizadas.jpg?alt=media&token=8464021b-9666-42db-99a1-737d16adc249&_gl=1*1hrl71m*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk0NTIuMjkuMC4w"
+  },
+  {
+    "id": 37,
+    "category": "papeleria",
+    "product": "Libretas",
+    "description": "Para colorear (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FLibreta%20para%20colorear%20(Varios%20modelos).jpg?alt=media&token=d8417130-4a2f-4f60-b6b1-8882c2110f66&_gl=1*1g3nko*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk0OTAuNjAuMC4w"
+  },
+  {
+    "id": 38,
+    "category": "papeleria",
+    "product": "Llaveros",
+    "description": "Tablas de multiplicar (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FLlavero%20tablas%20de%20multiplicar%20(Varios%20modelos).jpg?alt=media&token=0bd2624b-7885-46b5-9d0e-541fd19f9244&_gl=1*1c9lpna*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk1ODIuNjAuMC4w"
+  },
+  {
+    "id": 39,
+    "category": "papeleria",
+    "product": "Llaveros",
+    "description": "Abecedario plastificados (5cm x 8cm).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FLlavero%20de%20abecedario%20plastificado%205%20x%208%20cm.%20(Varios%20modelos).jpg?alt=media&token=54c375f3-9beb-482c-9df4-92ed675ec368&_gl=1*1i0pv1a*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk1MzAuMjAuMC4w"
+  },
+  {
+    "id": 40,
+    "category": "papeleria",
+    "product": "Carteles",
+    "description": "Props para fotos (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FProps%20para%20fotos%20(Varios%20modelos).jpg?alt=media&token=2cff334f-9524-4e35-8633-7c81e0ede294&_gl=1*oh1d64*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk2NDQuNjAuMC4w"
+  },
+  {
+    "id": 41,
+    "category": "papeleria",
+    "product": "Señaladores",
+    "description": "Con mensajes en lapicera (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FSe%C3%B1alador%20con%20mensaje%20en%20lapicera%20(Varios%20modelos).jpg?alt=media&token=d1439df0-5202-4044-b579-4734b624d562&_gl=1*15ecjrl*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk2ODIuMjIuMC4w"
+  },
+  {
+    "id": 42,
+    "category": "papeleria",
+    "product": "Tarjetas",
+    "description": "Personalizadas y de presentación.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Papeleria%2FTarjetas%20personales%20(7%20x%209cm%2C%2014%20x%207cm%2C%2014x10cm).jpg?alt=media&token=6dcce814-b012-4d34-bf32-2733b31a43d1&_gl=1*gzq2jn*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk3MjkuNjAuMC4w"
+  },
+  {
+    "id": 43,
+    "category": "momentomate",
+    "product": "Mate",
+    "description": "Cerámica y personalizados.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Mate%2FMate%20car%C3%A1mica%20(Varios%20modelos).jpg?alt=media&token=6b0d0bd8-96a2-4d7d-9efc-d70f9a94da28&_gl=1*1f7gcg3*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk4MjQuMzkuMC4w"
+  },
+  {
+    "id": 44,
+    "category": "momentomate",
+    "product": "Termo/mate personal",
+    "description": "Mate personal (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Mate%2FMate%20listo%20(Varios%20modelos).jpg?alt=media&token=f0a76691-5aad-4d6e-a75b-59ad018ff0c6&_gl=1*l8q5jl*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk4NTguNS4wLjA."
+  },
+  {
+    "id": 45,
+    "category": "momentomate",
+    "product": "Yerbera",
+    "description": "Set Chau latas (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Mate%2FSet%20chau%20latas%20(Varios%20modelos).jpg?alt=media&token=ac561974-a976-460a-bd01-4cd7cbb91e49&_gl=1*1qu27ga*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NTk5MDcuNjAuMC4w"
+  },
+  {
+    "id": 46,
+    "category": "momentomate",
+    "product": "Set de mate",
+    "description": "Mate, yerbera, azucarera y bombilla. Personalizados.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Mate%2Fmate.jpg?alt=media&token=2b4913da-55f4-4281-b5d4-c1e216831278&_gl=1*17gs5ap*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjEwOTcuMTguMC4w"
+  },
+  {
+    "id": 47,
+    "category": "mascotas",
+    "product": "Collares",
+    "description": "Identificador con nombre (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Mascotas%2FIdentificador%20de%20mascotas%20(Varios%20modelos).jpg?alt=media&token=b14d1c0f-8da6-4c36-88b7-23d61a49a065&_gl=1*121ls8n*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjAwNzcuMzUuMC4w"
+  },
+  {
+    "id": 48,
+    "category": "regalosespeciales",
+    "product": "Destapador",
+    "description": "Destapador de pared sublimado (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FDestapador%20de%20pared%20sublimado%20(Varios%20modelos).jpg?alt=media&token=6e9e2fb2-d31f-4574-ab64-5ec0ff0699df&_gl=1*e04t01*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA1MTguMjAuMC4w"
+  },
+  {
+    "id": 49,
+    "category": "regalosespeciales",
+    "product": "Vinilos",
+    "description": "Frases en vinilo de corte (personalizados).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FFrase%20en%20vinilo%20de%20corte%20.jpg?alt=media&token=41fe752b-7525-4a2e-8df1-3fc7252073ac&_gl=1*c2xe7r*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA1MzYuMi4wLjA."
+  },
+  {
+    "id": 50,
+    "category": "regalosespeciales",
+    "product": "Para colorear",
+    "description": "Kits (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FKit%20de%20colorear%20(Varios%20modelos).jpg?alt=media&token=aa2fd046-22bd-4a80-8e18-8a2ab8bee405&_gl=1*hs5gyb*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA1NzEuNDYuMC4w"
+  },
+  {
+    "id": 51,
+    "category": "regalosespeciales",
+    "product": "Llaveros",
+    "description": "Personalizados.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FLlaveros%20especiales%20(Varios%20modelos).jpg?alt=media&token=93898aa9-5266-48ff-8826-c739e59a5a8d&_gl=1*1t0lbws*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA2MTkuNjAuMC4w"
+  },
+  {
+    "id": 52,
+    "category": "regalosespeciales",
+    "product": "Llaveros",
+    "description": "Varias formas y modelos.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FLlaveros%20personalizados%20varias%20formas%20.jpg?alt=media&token=bb95593f-ffaa-4e04-a7ea-0612d1680513&_gl=1*pgqk1u*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA2NDguMzEuMC4w"
+  },
+  {
+    "id": 53,
+    "category": "regalosespeciales",
+    "product": "Portacelular",
+    "description": "Sublimados (varios modelos).",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FPorta%20celular%20sublimado%20(Varios%20modelos).jpg?alt=media&token=a3b612ed-3b3c-40bb-9196-31d36fc4bb38&_gl=1*x3x5ix*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA2NzYuMy4wLjA."
+  },
+  {
+    "id": 54,
+    "category": "regalosespeciales",
+    "product": "Set Asado",
+    "description": "Personalizados.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FSet%20asado%20(Varios%20modelos).jpg?alt=media&token=bcbbf0dc-de1e-4537-9f7f-0d82f0ba6441&_gl=1*1xi32hi*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA3MjQuNjAuMC4w"
+  },
+  {
+    "id": 55,
+    "category": "regalosespeciales",
+    "product": "Velas",
+    "description": "Aromáticas con etiqueta sublimada.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Regalos%20especiales%2FVelas%20arom%C3%A1ticas%20con%20etiqueta%20sublimada.jpg?alt=media&token=6867f394-2ea8-4d92-a456-c27bbb230ddc&_gl=1*1fz460w*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA3NTYuMjguMC4w"
+  },
+  {
+    "id": 56,
+    "category": "textiles",
+    "product": "Remeras",
+    "description": "Personalizadas.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/Textiles%2Fremeras.jpg?alt=media&token=ae698346-d0bd-42ea-99a7-f8c014a5cc95&_gl=1*4oljdy*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5Njg1NjY4MS4yMy4xLjE2OTY4NjA5NDcuMjIuMC4w"
+  }
+]

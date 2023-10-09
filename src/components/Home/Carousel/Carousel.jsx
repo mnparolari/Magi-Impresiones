@@ -2,10 +2,13 @@ import React, { useState } from 'react'
 import carousel1 from '../../../assets/images/carousel-1.jpg'
 import carousel2 from '../../../assets/images/carousel-2.jpg'
 import carousel3 from '../../../assets/images/carousel-3.jpg'
+import { useNavigate } from 'react-router-dom'
 
 
 const Carousel = () => {
     const [hovered, setHovered] = useState(false);
+    const navigate = useNavigate();
+
     return (
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div className="carousel-inner">
@@ -23,7 +26,7 @@ const Carousel = () => {
                                 <br />
                                 {hovered && (
                                     <div className="overlay">
-                                        <button className="btn btn-one">Quiero ver más</button>
+                                        <button className="btn btn-one" onClick={() => navigate(`/papeleria`)}>Quiero ver más</button>
                                     </div>
                                 )}
                                 <br />
@@ -47,7 +50,7 @@ const Carousel = () => {
                                 <br />
                                 {hovered && (
                                     <div className="overlay">
-                                        <button className="btn btn-two">Quiero ver más</button>
+                                        <button className="btn btn-two" onClick={() => navigate(`/regalosespeciales`)}>Quiero ver más</button>
                                     </div>
                                 )}
                                 <br />
@@ -71,7 +74,7 @@ const Carousel = () => {
                                 <br />
                                 {hovered && (
                                     <div className="overlay">
-                                        <button className="btn btn-three">Quiero ver más</button>
+                                        <button className="btn btn-three" onClick={() => navigate(`/souvenir`)}>Quiero ver más</button>
                                     </div>
                                 )}
                                 <br />

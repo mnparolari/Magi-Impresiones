@@ -2,12 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import souvenirImg from '../../../assets/images/souvenir.png';
 import papeleriaImg from '../../../assets/images/papeleria.png';
-import maderaImg from '../../../assets/images/madera.png';
+import regalosImg from '../../../assets/images/regalosespeciales.png';
 import textilImg from '../../../assets/images/textil.png';
 import mateImg from '../../../assets/images/mate.png';
 import beberImg from '../../../assets/images/beber.png';
 import mascotasImg from '../../../assets/images/mascotas.png';
-import sellosImg from '../../../assets/images/sellos.png';
 import logo from '../../../assets/images/logomagi.png';
 import '../../../scss/components/_navbarBootstrap.scss'
 import '../../../scss/base/_mediaquery.scss'
@@ -24,9 +23,9 @@ const categorys = [
         path: '/papeleria'
     },
     {
-        name: 'Sublimados en madera',
-        img: maderaImg,
-        path: '/sublimadomadera'
+        name: 'Regalos especiales',
+        img: regalosImg,
+        path: '/regalosespeciales'
     },
     {
         name: 'Textiles',
@@ -47,11 +46,6 @@ const categorys = [
         name: 'Mascotas',
         img: mascotasImg,
         path: '/mascotas'
-    },
-    {
-        name: 'Sellos',
-        img: sellosImg,
-        path: '/sellos'
     }
 ]
 
