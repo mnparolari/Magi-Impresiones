@@ -76,6 +76,43 @@ header {
     text-decoration: none;
 }
 
+#contactanos{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px;
+    background-color: #d2e9a37a;
+}
+
+#contactanos:hover {
+    background-color: #b4e05bd7;
+}
+
+.active-link-home:hover{
+    background-color: #007680 !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.active-link-about:hover{
+    background-color: #007680 !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.active-link-products:hover{
+    background-color: #007680 !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.active-link-contacts:hover{
+    background-color: #007680 !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
 .nav-link-home:hover {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -83,6 +120,7 @@ header {
     padding-right: 45px;
     border-radius: 30px;
     background-color: #D2E9A3;
+    color: #0a494e;
     opacity: 0.7;
 }
 
@@ -216,7 +254,7 @@ header {
 }
 
 .active-link-contacts {
-    background-color: nth($color-palette, 1);
+    background-color: nth($color-palette, 1) !important;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;

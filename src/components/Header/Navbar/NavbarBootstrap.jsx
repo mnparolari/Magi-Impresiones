@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import souvenirImg from '../../../assets/images/souvenir.png';
 import papeleriaImg from '../../../assets/images/papeleria.png';
 import regalosImg from '../../../assets/images/regalosespeciales.png';
@@ -56,6 +56,13 @@ const NavbarBootstrap = () => {
     const [activeCategory, setActiveCategory] = useState(null);
     const dropdownRef = useRef(null);
 
+    const closeMenu = () => {
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        if (navbarToggler && navbarToggler.getAttribute("aria-expanded") === "true") {
+            navbarToggler.click(); // Esto emula un clic en el botón, lo que debería cerrar el menú
+        }
+    };
+
     useEffect(() => {
         function handleClickOutside(event) {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -81,6 +88,24 @@ const NavbarBootstrap = () => {
         setActiveCategory(categoryName);
     };
 
+    const location = useLocation();
+
+    useEffect(() => {
+        // Verifica la ruta actual y activa el enlace correspondiente
+        const currentPath = location.pathname;
+        if (currentPath === "/") {
+            setActiveLink('Inicio');
+        } else if (currentPath === "/sobremagi") {
+            setActiveLink('SobreMagi');
+        } else if (currentPath.includes("/producto")) { // Asume que todas las rutas de productos contienen '/producto'
+            setActiveLink('NuestroProductos');
+        } else if (currentPath === "/contactos") {
+            setActiveLink('Contactos');
+        } else {
+            // Puedes manejar rutas no especificadas si es necesario
+        }
+    }, [location]);
+
     return (
         <header>
             <nav className="navbar navbar-expand-lg">
@@ -102,6 +127,7 @@ const NavbarBootstrap = () => {
                                     onClick={() => {
                                         activateLink('Inicio');
                                         activateCategory(null);
+                                        closeMenu();
                                     }}>
                                     Inicio</NavLink>
                             </li>
@@ -110,6 +136,7 @@ const NavbarBootstrap = () => {
                                     onClick={() => {
                                         activateLink('SobreMagi');
                                         activateCategory(null);
+                                        closeMenu();
                                     }}
                                     style={{ whiteSpace: 'nowrap' }}>
                                     Sobre <span className='magiFontNav'>magi</span></NavLink>
@@ -134,6 +161,7 @@ const NavbarBootstrap = () => {
                                                     <NavLink to={path} onClick={() => { 
                                                         setIsDropdownOpen(false);
                                                         activateCategory(name);
+                                                        closeMenu();
                                                     }}>
                                                         {name}
                                                     </NavLink>
@@ -144,10 +172,11 @@ const NavbarBootstrap = () => {
                                 )}
                             </li>
                             <li className="nav-item" id="contactos">
-                                <NavLink to={'/contactos'} className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
+                                <NavLink to={'/contactos'} id = "contactanos" className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
                                     onClick={() => {
                                         activateLink('Contactos');
                                         activateCategory(null);
+                                        closeMenu();
                                     }}>
                                     Contactanos</NavLink>
                             </li>
