@@ -76,7 +76,7 @@ header {
     text-decoration: none;
 }
 
-#contactanos{
+#contactanos {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 45px;
@@ -89,25 +89,25 @@ header {
     background-color: #b4e05bd7;
 }
 
-.active-link-home:hover{
+.active-link-home:hover {
     background-color: #007680 !important;
     color: #fff !important;
     opacity: 1 !important;
 }
 
-.active-link-about:hover{
+.active-link-about:hover {
     background-color: #007680 !important;
     color: #fff !important;
     opacity: 1 !important;
 }
 
-.active-link-products:hover{
+.active-link-products:hover {
     background-color: #007680 !important;
     color: #fff !important;
     opacity: 1 !important;
 }
 
-.active-link-contacts:hover{
+.active-link-contacts:hover {
     background-color: #007680 !important;
     color: #fff !important;
     opacity: 1 !important;
@@ -188,14 +188,13 @@ header {
 }
 
 .imgCategory:hover {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 5px;
     background-color: #D2E9A3;
     opacity: 0.9;
 }
+
 
 .nav-item-category {
     display: flex;
@@ -208,16 +207,17 @@ header {
 
 .divImgCatet {
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
+
 
 .imgCategory {
-    width: 90%;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
 }
-
-/*.divImgCateg:hover {
-    background-color: #D2E9A3;
-    border-radius: 18px;
- }*/
 
 .nameCategory {
     color: nth($color-palette, 2);
@@ -263,9 +263,5 @@ header {
 
 .active-link {
     background-color: #D2E9A3;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }

@@ -1,6 +1,8 @@
 .cardContainer {
     overflow-y: hidden;
-    
+    overflow-x: hidden;
+    display: flex;
+
     .card {
         border-radius: 25px;
         padding: 20px;
@@ -17,6 +19,7 @@
         .card-img-top {
             border-radius: 25px;
             height: 230px;
+            
         }
 
         .card-body {
@@ -52,9 +55,46 @@
     }
 }
 
+.sectionContainerProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    .nameCategoryResponsive {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titleCategory {
+            font-family: $font-primary;
+            font-weight: bold;
+            color: nth($color-palette, 2);
+            font-size: 18px;
+        }
+        
+        .imageContainer {
+            background-color: nth($color-palette, 1);
+            padding: 10px;
+            border-radius: 50%;
+            margin-top: 15px;
+            
+            .imgCategory {
+                width: auto;
+                height: 50px;
+                padding: 5px;
+            }
+        }
+    }
+}
+
 .listContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow-y: hidden;
+    overflow-x: hidden;
     padding: 50px;
 }

@@ -563,6 +563,8 @@ a {
 
 .cardContainer {
   overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
 }
 .cardContainer .card {
   border-radius: 25px;
@@ -608,10 +610,43 @@ a {
   color: #29A71A;
 }
 
+.sectionContainerProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.sectionContainerProducts .nameCategoryResponsive {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionContainerProducts .nameCategoryResponsive .titleCategory {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #343D41;
+  font-size: 18px;
+}
+.sectionContainerProducts .nameCategoryResponsive .imageContainer {
+  background-color: #007680;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.sectionContainerProducts .nameCategoryResponsive .imageContainer .imgCategory {
+  width: auto;
+  height: 50px;
+  padding: 5px;
+}
+
 .listContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   overflow-y: hidden;
+  overflow-x: hidden;
   padding: 50px;
 }
 
@@ -689,6 +724,43 @@ header {
   text-decoration: none;
 }
 
+#contactanos {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 30px;
+  background-color: rgba(210, 233, 163, 0.4784313725);
+}
+
+#contactanos:hover {
+  background-color: rgba(180, 224, 91, 0.8431372549);
+}
+
+.active-link-home:hover {
+  background-color: #007680 !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.active-link-about:hover {
+  background-color: #007680 !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.active-link-products:hover {
+  background-color: #007680 !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.active-link-contacts:hover {
+  background-color: #007680 !important;
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
 .nav-link-home:hover {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -696,6 +768,7 @@ header {
   padding-right: 45px;
   border-radius: 30px;
   background-color: #D2E9A3;
+  color: #0a494e;
   opacity: 0.7;
 }
 
@@ -763,11 +836,9 @@ header {
 }
 
 .imgCategory:hover {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
+  transform: scale(1.1);
+  z-index: 1;
+  border-radius: 5px;
   background-color: #D2E9A3;
   opacity: 0.9;
 }
@@ -783,16 +854,17 @@ header {
 
 .divImgCatet {
   width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .imgCategory {
-  width: 90%;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
-/*.divImgCateg:hover {
-    background-color: #D2E9A3;
-    border-radius: 18px;
- }*/
 .nameCategory {
   color: #343D41;
   font-weight: 600;
@@ -828,7 +900,7 @@ header {
 }
 
 .active-link-contacts {
-  background-color: #007680;
+  background-color: #007680 !important;
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -837,11 +909,7 @@ header {
 
 .active-link {
   background-color: #D2E9A3;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .floatWhatsapp {
@@ -857,57 +925,9 @@ header {
     text-align: center;
     padding-left: 0;
   }
-  /*.logo {
-      width: 12vw;
+  .listContainer {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .objectList {
-      font-size: medium;
-      margin: 0;
-      padding-top: 1em;
-      width: 24%;
-  }
-
-  .navbar {
-      height: 17vh;
-      width: 100vw;
-  }
-
-
-  .navbarList {
-      width: 80vw;
-      padding-right: 1em;
-  }
-
-  .objectList.dropdown.open .dropdown-content {
-      width: 95vw;
-      margin-left: -3.5rem;
-      padding-right: 1rem;
-  }*/
-}
-@media screen and (max-width: 770px) {
-  .sectionContacts .formContainer .row .namePhoneContainer {
-    flex-direction: column;
-  }
-  /*.objectList {
-      font-size: large;
-  }
-
-
-
-  .active-link {
-      padding-top: 1.2rem;
-  }
-
-  .objectList.dropdown.open .dropdown-content {
-      padding-left: 9rem;
-      height: 35vh;
-      width: 130vw;
-      padding-top:1em;
-      padding-bottom: 1em;
-      margin-left:2.5rem;
-      margin-right: 1rem;
-  }*/
 }
 @media screen and (max-width: 992px) {
   header {
@@ -925,6 +945,7 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 2rem;
+    padding-top: 5rem;
   }
   .container-fluid {
     height: 17vh !important;
@@ -937,11 +958,16 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    height: 17vh !important;
+    height: 20vh !important;
     width: 100vw;
     z-index: 99;
     position: fixed;
     background-color: rgb(255, 255, 255);
+    padding-top: 4rem;
+    margin-top: 1.5rem;
+  }
+  .navbar-toggler {
+    margin-top: 1.5rem;
   }
   .nav-item {
     margin-top: 1.5rem;
@@ -955,91 +981,34 @@ header {
     margin-top: 2.5rem;
   }
   .mobileCategories {
-    border-bottom: 1px solid #2d929b;
     margin-top: 0.5rem;
+    padding-bottom: 0.2rem;
     font-size: medium;
+    border-bottom: 2px solid rgba(45, 146, 155, 0.2941176471);
+    border-left: 1px solid rgba(45, 146, 155, 0.231372549);
+    border-radius: 20px 30px 0px 30px;
+    padding-left: 1em;
   }
   .mobile-category-list {
     list-style-type: none;
   }
-  /*.navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+  a {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.562);
   }
-
-
-  .navbarList {
-      display: none;
+  a:hover {
+    color: rgba(0, 0, 0, 0.562);
   }
-
-  .mobile-menu-button {
-      display: block;
+  .carousel {
+    padding-top: 50px;
+    margin-top: 120px;
   }
-
-
-  .mobile-menu-open .navbarList {
-      display: block;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 95%;
-      background-color: rgb(243, 243, 237);
+}
+@media screen and (max-width: 890px) {
+  .cardContainer .card .card-body .btn-primary {
+    width: 150px;
+    text-align: center;
   }
-
-  .navbarList {
-      height: 100vh;
-  }
-
-  .navbarList .objectList {
-      display: block;
-      width: 75vw;
-      height: 7vh;
-      margin: 0.5rem 0;
-      text-align: left;
-      margin-bottom: 4rem;
-  }
-
-  .active-link {
-      text-align: left;
-      padding-left: 2rem;
-      padding-top: 1rem;
-
-  }
-
-
-  .logo {
-      width: 30vw;
-      margin: 0 auto;
-      margin-right: 7rem;
-  }
-
-  .active-link:hover,
-  .active-link:focus {
-      padding-top: 1em;
-  }
-
-  .objectList.dropdown.open .dropdown-content {
-      display: flex;
-      flex-direction: column;
-      overflow: initial;
-  }
-
-  .dropdown-content{
-      padding-left: 18rem;
-  }
-
-  .dropdown-item {
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-      height: 4vh;
-      width: 50%;
-      border-bottom: 1px solid #2d929b;
-      padding-top:1.5em;
-      padding-bottom: 0em;
-      margin-left: 3rem;
-  }*/
 }
 @media screen and (max-width: 860px) {
   .image-container .textContainer .titleCarousel {
@@ -1053,6 +1022,43 @@ header {
   }
   .image-container .textContainer .btn {
     margin-top: 50px;
+  }
+  .sectionContacts .contactsContainer .titleContainer .conocemas {
+    font-size: 22px;
+    padding: 0px;
+    margin-top: 1rem;
+    font-weight: 700;
+    height: 0px;
+  }
+  .sectionContacts .infoabout {
+    font-size: 16px;
+    margin: 0px 20px;
+  }
+  .sectionContacts .mision {
+    font-size: 20px;
+    margin: 10px 20px;
+  }
+  .sectionContacts .contenedorLogo1 {
+    margin: 50px 0px;
+  }
+  .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
+    width: 50%;
+  }
+  .cardContainer {
+    justify-content: center;
+  }
+  .listContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 770px) {
+  .sectionContacts .formContainer .row .namePhoneContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bodyHomeContainer .imgContainer #imageHiddenResponsive {
+    display: none;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1069,6 +1075,22 @@ header {
   }
   .image-container .textContainer .btn {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .cardContainer {
+    justify-content: center;
+  }
+  .listContainer {
+    grid-template-columns: 1fr;
+  }
+  .cardContainer .card .card-body .btn-primary {
+    width: 210px;
+    font-size: 13px;
+  }
+  .sectionContainerProducts .nameCategoryResponsive {
+    display: flex;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 460px) {
@@ -1095,29 +1117,15 @@ header {
   .navbar-nav {
     font-size: 14px;
   }
-  /*.objectList {
-      font-size: medium;
+  .sectionContacts .contactsContainer .titleContainer .conocemas {
+    font-size: 18px;
   }
-
-  .active-link {
-      width: 90%;
-
+  .sectionContacts .infoabout {
+    font-size: 14px;
   }
-
-  .dropdown-item{
-      width: 90%;
+  .sectionContacts .mision {
+    font-size: 18px;
   }
-
-  .objectList.dropdown.open .dropdown-content {
-      width: 105vw;
-      padding-left: 7rem;
-      height: 35vh;
-      width: 110vw;
-      padding-top:1em;
-      padding-bottom: 1em;
-      margin-left:0;
-      margin-right: 1rem;
-  }*/
 }
 @media screen and (min-width: 461px) {
   .nav-item {
@@ -1250,6 +1258,9 @@ header {
       margin-left: -6.5rem;
       margin-right: -6.5rem;
   }*/
+  .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
+    width: 26%;
+  }
 }
 @media screen and (min-width: 1500px) {
   .navbar-nav {

@@ -158,7 +158,7 @@ const NavbarBootstrap = () => {
                                         <ul className="mobile-category-list">
                                             {categorys.map(({ name, path }) => (
                                                 <li className="mobileCategories" key={name}>
-                                                    <NavLink to={path} onClick={() => { 
+                                                    <NavLink to={path} onClick={() => {
                                                         setIsDropdownOpen(false);
                                                         activateCategory(name);
                                                         closeMenu();
@@ -172,7 +172,7 @@ const NavbarBootstrap = () => {
                                 )}
                             </li>
                             <li className="nav-item" id="contactos">
-                                <NavLink to={'/contactos'} id = "contactanos" className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
+                                <NavLink to={'/contactos'} id="contactanos" className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
                                     onClick={() => {
                                         activateLink('Contactos');
                                         activateCategory(null);
@@ -189,7 +189,8 @@ const NavbarBootstrap = () => {
                     {categorys.map(({ name, img, path }) => (
                         <div className="nav-item-category" key={name}>
                             <NavLink className="nav-link-category" to={path} onClick={() => activateCategory(name)}>
-                                <div className="divImgCateg"><img src={img} alt={name} className={`imgCategory ${name === activeCategory ? 'active-link' : ''}`} />
+                                <div className="divImgCateg">
+                                    <img src={img} alt={name} className={`imgCategory ${name === activeCategory ? 'active-link' : ''}`} />
                                 </div>
                                 <p className='nameCategory'>{name}</p>
                             </NavLink>
