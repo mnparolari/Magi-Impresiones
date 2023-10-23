@@ -10,8 +10,8 @@ const BodyHome = () => {
             <br />
             <h3 className='subtitleBodyHome'>¡El producto más elegido!</h3>
             <div className='imgContainer'>
-                <img src={taza1} alt="" className='imgBodyHome'/>
-                <img src={taza2} alt="" className='imgBodyHome'/>
+                <img src={taza1} alt="Producto Magi" className='imgBodyHome'/>
+                <img src={taza2} alt="Producto Magi" className='imgBodyHome' id='imageHiddenResponsive'/>
             </div>
             <p className='textBodyHome'>Entre nuestros productos son tendencia las tazas mágicas y con efecto 3D. <br/>
             <span style={{fontWeight: '600'}}>¡Son ideales para sorprender en un regalo!</span>
