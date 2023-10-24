@@ -91,20 +91,17 @@ const NavbarBootstrap = () => {
     const location = useLocation();
 
     useEffect(() => {
-        // Verifica la ruta actual y activa el enlace correspondiente
         const currentPath = location.pathname;
         if (currentPath === "/") {
             setActiveLink('Inicio');
         } else if (currentPath === "/sobremagi") {
             setActiveLink('SobreMagi');
-        } else if (currentPath.includes("/producto")) { // Asume que todas las rutas de productos contienen '/producto'
-            setActiveLink('NuestroProductos');
         } else if (currentPath === "/contactos") {
             setActiveLink('Contactos');
-        } else {
-            // Puedes manejar rutas no especificadas si es necesario
+        } else if (isDropdownOpen) {
+            setActiveLink('NuestroProductos');
         }
-    }, [location]);
+    }, [location, isDropdownOpen]);
 
     return (
         <header>
@@ -121,8 +118,8 @@ const NavbarBootstrap = () => {
                         </button>
                     </div>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                            <li className="nav-item" id="inicio">
+                        <div className="navbar-nav">
+                            <div className="nav-item" id="inicio">
                                 <NavLink to={'/'} className={`nav-link-home ${activeLink === 'Inicio' ? 'active-link-home' : ''}`}
                                     onClick={() => {
                                         activateLink('Inicio');
@@ -130,8 +127,8 @@ const NavbarBootstrap = () => {
                                         closeMenu();
                                     }}>
                                     Inicio</NavLink>
-                            </li>
-                            <li className="nav-item" id="aboutmagi">
+                            </div>
+                            <div className="nav-item" id="aboutmagi">
                                 <NavLink to={'/sobremagi'} className={`nav-link-home ${activeLink === 'SobreMagi' ? 'active-link-about' : ''}`}
                                     onClick={() => {
                                         activateLink('SobreMagi');
@@ -140,8 +137,8 @@ const NavbarBootstrap = () => {
                                     }}
                                     style={{ whiteSpace: 'nowrap' }}>
                                     Sobre <span className='magiFontNav'>magi</span></NavLink>
-                            </li>
-                            <li className="nav-item" id="nuestrosprods">
+                            </div>
+                            <div className="nav-item" id="nuestrosprods">
                                 <NavLink className={`nav-link-home ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
                                     onClick={(e) => {
                                         toggleDropdown(e);
@@ -170,8 +167,8 @@ const NavbarBootstrap = () => {
                                         </ul>
                                     </div>
                                 )}
-                            </li>
-                            <li className="nav-item" id="contactos">
+                            </div>
+                            <div className="nav-item" id="contactos">
                                 <NavLink to={'/contactos'} id="contactanos" className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
                                     onClick={() => {
                                         activateLink('Contactos');
@@ -179,8 +176,8 @@ const NavbarBootstrap = () => {
                                         closeMenu();
                                     }}>
                                     Contactanos</NavLink>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>

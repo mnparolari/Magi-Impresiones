@@ -670,7 +670,8 @@ header {
 }
 
 .container-fluid {
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -692,7 +693,7 @@ header {
 }
 
 .nav-item {
-  padding-left: 40px;
+  padding-left: 95px;
   padding-right: 40px;
 }
 
