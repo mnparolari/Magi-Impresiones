@@ -17,11 +17,10 @@
 
     .navbar-nav {
         background-color: rgba(252, 252, 249, 0.918);
-        height: 100vh;
-        width: 96vw;
+        height: 90%;
+        width: 83vw;
         position: fixed;
         font-size: 20px;
-        padding-top: 2.5rem;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -29,8 +28,9 @@
         padding-top: 5rem;
         padding-left: 0px;
         margin-left: 0px;
+        border-bottom-left-radius: 3%;
+        border-bottom-right-radius: 3%;
     }
-
 
     .container-fluid {
         height: 23vh !important;
@@ -42,7 +42,6 @@
 
     .container-mobile {
         display: flex;
-        justify-content: space-between;
         padding: 1rem;
         height: 20vh !important;
         width: 100vw;
@@ -50,7 +49,6 @@
         position: fixed;
         background-color: rgb(255, 255, 255);
         padding-top: 4rem;
-        margin-top: 1.5rem;
     }
 
     .navbar-toggler {
@@ -67,7 +65,7 @@
     .nav-item {
         margin-top: 1.5rem;
         margin-bottom: 1rem;
-        width: 65vw;
+        width: 100vw;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -88,7 +86,7 @@
 
     .nav-link-about {
         padding-left: 10px;
-        padding-right: 74%;
+        padding-right: 75%;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -102,7 +100,7 @@
 
     .nav-link-products {
         padding-left: 10px;
-        padding-right: 70%;
+        padding-right: 75%;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -111,13 +109,13 @@
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 15px;
-        padding-right: 61%;
+        padding-right: 55%;
     }
 
 
     #contactanos {
         padding-left: 10px;
-        padding-right: 80%;
+        padding-right: 75%;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -126,7 +124,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 15px;
-        padding-right: 80%;
+        padding-right: 75%;
     }
 
     .categoryMenu {
@@ -277,7 +275,6 @@
     }
 }
 
-
 @media screen and (max-width: 460px) {
     .footer {
         display: flex;
@@ -374,9 +371,6 @@
 
 @media screen and (min-width: 993px) {
 
-    /*.navbarList {
-        line-height: 1.5;
-    }*/
     .container {
         width: 0vw;
     }
