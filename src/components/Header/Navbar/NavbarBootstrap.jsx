@@ -131,7 +131,7 @@ const NavbarBootstrap = () => {
                                     Inicio</NavLink>
                             </div>
                             <div className="nav-item" id="aboutmagi">
-                                <NavLink to={'/sobremagi'} className={`nav-link-home ${activeLink === 'SobreMagi' ? 'active-link-about' : ''}`}
+                                <NavLink to={'/sobremagi'} className={`nav-link-about ${activeLink === 'SobreMagi' ? 'active-link-about' : ''}`}
                                     onClick={() => {
                                         activateLink('SobreMagi');
                                         activateCategory(null);
@@ -141,7 +141,7 @@ const NavbarBootstrap = () => {
                                     Sobre <span className='magiFontNav'>magi</span></NavLink>
                             </div>
                             <div className="nav-item" id="nuestrosprods">
-                                <NavLink className={`nav-link-home ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
+                                <NavLink className={`nav-link-products ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
                                     onClick={(e) => {
                                         toggleDropdown(e);
                                         activateLink('NuestroProductos');
@@ -171,7 +171,7 @@ const NavbarBootstrap = () => {
                                 )}
                             </div>
                             <div className="nav-item" id="contactos">
-                                <NavLink to={'/contactos'} id="contactanos" className={`nav-link-home ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
+                                <NavLink to={'/contactos'} id="contactanos" className={`nav-link-contacts ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
                                     onClick={() => {
                                         activateLink('Contactos');
                                         activateCategory(null);

@@ -40,12 +40,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .nav-item {
     padding-left: 95px;
     padding-right: 40px;
+}
+
+#inicio {
+    margin-top: 15px;
 }
 
 .nav-link-home {

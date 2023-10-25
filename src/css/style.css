@@ -697,6 +697,10 @@ header {
   padding-right: 40px;
 }
 
+#inicio {
+  margin-top: 15px;
+}
+
 .nav-link-home {
   padding-left: 45px;
   padding-right: 45px;
@@ -948,6 +952,7 @@ header {
     margin-top: 2rem;
     padding-top: 5rem;
     padding-left: 0px;
+    margin-left: 0px;
   }
   .container-fluid {
     height: 23vh !important;
@@ -984,11 +989,53 @@ header {
     padding-left: 0px;
     padding-right: 0px;
   }
-  #inicio {
-    margin-left: 10px;
-  }
   .nav-link-home {
-    text-align: center;
+    padding-left: 10px;
+    padding-right: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-link-home:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 100%;
+  }
+  .nav-link-about {
+    padding-left: 10px;
+    padding-right: 74%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-link-about:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 74%;
+  }
+  .nav-link-products {
+    padding-left: 10px;
+    padding-right: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-link-products:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 61%;
+  }
+  #contactanos {
+    padding-left: 10px;
+    padding-right: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #contactanos:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 80%;
   }
   .categoryMenu {
     display: none;
