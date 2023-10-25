@@ -79,10 +79,12 @@ const NavbarBootstrap = () => {
         e.stopPropagation();
         setIsDropdownOpen(!isDropdownOpen);
     };
-
+    
+    
     const activateLink = (linkName) => {
         setActiveLink(linkName);
     };
+
 
     const activateCategory = (categoryName) => {
         setActiveCategory(categoryName);

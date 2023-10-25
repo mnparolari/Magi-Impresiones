@@ -31,11 +31,12 @@
 
 
     .container-fluid {
-        height: 17vh !important;
+        height: 23vh !important;
         width: 100vw;
         z-index: 99;
         position: fixed;
         background-color: rgb(255, 255, 255);
+
     }
 
     .container-mobile {
@@ -53,6 +54,12 @@
 
     .navbar-toggler {
         margin-top: 1.5rem;
+        transition: transform 0.2s ease;
+    }
+
+    .navbar-toggler:active{
+        transform: scale(1.1);
+        transition: all .3s ease;
     }
 
     .nav-item {
@@ -252,6 +259,17 @@
     .sectionContacts .mision {
         font-size: 18px;
     }
+
+    .contenedorLogo2 .logo{
+        height: 16vh;
+        margin-right: 2.2rem;
+        margin-top: 1rem;
+    }
+    #contactos {
+        margin-top: 1.4rem;
+    }
+
+
 }
 
 @media screen and (min-width: 461px) {
@@ -270,7 +288,6 @@
         width: 210px !important;
         margin-top: 15px !important;
     }
-
 }
 
 @media screen and (min-width: 320px) {
