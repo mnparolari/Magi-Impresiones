@@ -68,10 +68,14 @@ const ItemListContainer = () => {
     fetch('../data/products.json')
       .then((res) => res.json())
       .then((data) => {
-        const filteredProducts = data.filter((product) => product.category === category);
-        setProducts(filteredProducts);
-        const foundCategory = categorys.find((cat) => cat.path === category);
-        setCategoryInfo(foundCategory);
+        if (!category) {
+          setProducts(data)
+        } else {
+          const filteredProducts = data.filter((product) => product.category === category);
+          setProducts(filteredProducts);
+          const foundCategory = categorys.find((cat) => cat.path === category);
+          setCategoryInfo(foundCategory);
+        }
       })
       .catch((error) => handleError(error))
   }, [category])

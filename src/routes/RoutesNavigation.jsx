@@ -12,12 +12,12 @@ import NavbarBootstrap from '../components/Header/Navbar/NavbarBootstrap'
 const RoutesNavigation = () => {
     return (
         <BrowserRouter>
-            { /*<Navbar />*/}
             <NavbarBootstrap />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/sobremagi' element={<About />} />
-                <Route path="/:category" element={<ItemListContainer />} />
+                <Route path="/:productos" element={<ItemListContainer />} />
+                <Route path="/:productos/:category" element={<ItemListContainer />} />
                 <Route path='/contactos' element={<Contacts />} />
                 <Route path="*" element={<h1>404 NOT FOUND</h1>} />
             </Routes>

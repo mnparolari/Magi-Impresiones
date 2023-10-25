@@ -15,37 +15,37 @@ const categorys = [
     {
         name: 'Souvenir',
         img: souvenirImg,
-        path: '/souvenir'
+        path: '/productos/souvenir'
     },
     {
         name: 'Papelería',
         img: papeleriaImg,
-        path: '/papeleria'
+        path: '/productos/papeleria'
     },
     {
         name: 'Regalos especiales',
         img: regalosImg,
-        path: '/regalosespeciales'
+        path: '/productos/regalosespeciales'
     },
     {
         name: 'Textiles',
         img: textilImg,
-        path: '/textiles'
+        path: '/productos/textiles'
     },
     {
         name: 'Momento del mate',
         img: mateImg,
-        path: '/momentomate'
+        path: '/productos/momentomate'
     },
     {
         name: 'Para beber',
         img: beberImg,
-        path: '/parabeber'
+        path: '/productos/parabeber'
     },
     {
         name: 'Mascotas',
         img: mascotasImg,
-        path: '/mascotas'
+        path: '/productos/mascotas'
     }
 ]
 
@@ -141,7 +141,7 @@ const NavbarBootstrap = () => {
                                     Sobre <span className='magiFontNav'>magi</span></NavLink>
                             </div>
                             <div className="nav-item" id="nuestrosprods">
-                                <NavLink className={`nav-link-products ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
+                                <NavLink to={'/productos'} className={`nav-link-products ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
                                     onClick={(e) => {
                                         toggleDropdown(e);
                                         activateLink('NuestroProductos');
