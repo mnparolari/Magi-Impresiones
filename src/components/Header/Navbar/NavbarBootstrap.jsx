@@ -1,12 +1,33 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import souvenirImg from '../../../assets/images/souvenir.png';
-import papeleriaImg from '../../../assets/images/papeleria.png';
-import regalosImg from '../../../assets/images/regalosespeciales.png';
-import textilImg from '../../../assets/images/textil.png';
-import mateImg from '../../../assets/images/mate.png';
-import beberImg from '../../../assets/images/beber.png';
-import mascotasImg from '../../../assets/images/mascotas.png';
+import souvenirImg from '../../../assets/images/souvenirDefault.png';
+import papeleriaImg from '../../../assets/images/papeleriaDefault.png';
+import regalosImg from '../../../assets/images/regalosespecialesDefault.png';
+import textilImg from '../../../assets/images/remeraDefault.png';
+import mateImg from '../../../assets/images/mateDefault.png';
+import beberImg from '../../../assets/images/botellaDefault.png';
+import mascotasImg from '../../../assets/images/mascotaDefault.png';
+import souvenirHover from '../../../assets/images/souvenirHovered.png';
+import souvenirActive from '../../../assets/images/souvenirActive.png';
+import souvenirPressed from '../../../assets/images/souvenirPressed.png';
+import papeleriaHover from '../../../assets/images/papeleriaHovered.png';
+import papeleriaActive from '../../../assets/images/papeleriaActive.png';
+import papeleriaPressed from '../../../assets/images/papeleriaPressed.png';
+import regalosHover from '../../../assets/images/regalosespecialesHovered.png';
+import regalosActive from '../../../assets/images/regalosespecialesActive.png';
+import regalosPressed from '../../../assets/images/regalosespecialesPressed.png';
+import textilHover from '../../../assets/images/remeraHovered.png';
+import textilActive from '../../../assets/images/remeraActive.png';
+import textilPressed from '../../../assets/images/remeraPressed.png';
+import mateHover from '../../../assets/images/mateHovered.png';
+import mateActive from '../../../assets/images/mateActive.png';
+import matePressed from '../../../assets/images/matePressed.png';
+import botellaHover from '../../../assets/images/botellaHovered.png';
+import botellaActive from '../../../assets/images/botellaActive.png';
+import botellaPressed from '../../../assets/images/botellaPressed.png';
+import mascotaHover from '../../../assets/images/mascotaHovered.png';
+import mascotaActive from '../../../assets/images/mascotaActive.png';
+import mascotaPressed from '../../../assets/images/mascotaPressed.png';
 import logo from '../../../assets/images/logomagi.png';
 import '../../../scss/components/_navbarBootstrap.scss'
 import '../../../scss/base/_mediaquery.scss'
@@ -15,36 +36,57 @@ const categorys = [
     {
         name: 'Souvenir',
         img: souvenirImg,
+        imgHover: souvenirHover,
+        imgClick: souvenirPressed,
+        imgActive: souvenirActive,
         path: '/productos/souvenir'
     },
     {
         name: 'Papelería',
         img: papeleriaImg,
+        imgHover: papeleriaHover,
+        imgClick: papeleriaPressed,
+        imgActive: papeleriaActive,
         path: '/productos/papeleria'
     },
     {
         name: 'Regalos especiales',
         img: regalosImg,
+        imgHover: regalosHover,
+        imgClick: regalosPressed,
+        imgActive: regalosActive,
         path: '/productos/regalosespeciales'
     },
     {
         name: 'Textiles',
         img: textilImg,
+        imgHover: textilHover,
+        imgClick: textilPressed,
+        imgActive: textilActive,
         path: '/productos/textiles'
     },
     {
         name: 'Momento del mate',
         img: mateImg,
+        imgHover: mateHover,
+        imgClick: matePressed,
+        imgActive: mateActive,
         path: '/productos/momentomate'
     },
     {
         name: 'Para beber',
         img: beberImg,
+        imgHover: botellaHover,
+        imgClick: botellaPressed,
+        imgActive: botellaActive,
         path: '/productos/parabeber'
     },
     {
         name: 'Mascotas',
         img: mascotasImg,
+        imgHover: mascotaHover,
+        imgClick: mascotaPressed,
+        imgActive: mascotaActive,
         path: '/productos/mascotas'
     }
 ]
@@ -54,6 +96,8 @@ const NavbarBootstrap = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [activeLink, setActiveLink] = useState(null);
     const [activeCategory, setActiveCategory] = useState(null);
+    const [hoveredCategory, setHoveredCategory] = useState(null);
+    const [clickedCategory, setClickedCategory] = useState(null);
     const dropdownRef = useRef(null);
 
     const closeMenu = () => {
@@ -79,12 +123,28 @@ const NavbarBootstrap = () => {
         e.stopPropagation();
         setIsDropdownOpen(!isDropdownOpen);
     };
-    
-    
+
+
     const activateLink = (linkName) => {
         setActiveLink(linkName);
+        setActiveCategory(null); 
+        setClickedCategory(null); 
+        closeMenu();
     };
 
+    const handleMouseEnter = (categoryName) => {
+        setHoveredCategory(categoryName);
+    };
+
+    const handleMouseLeave = () => {
+        setHoveredCategory(null);
+    };
+
+    const handleCategoryClick = (categoryName) => {
+        console.log('Category clicked:', categoryName);
+        setClickedCategory(categoryName);
+        setHoveredCategory(null);
+    };
 
     const activateCategory = (categoryName) => {
         setActiveCategory(categoryName);
@@ -185,11 +245,26 @@ const NavbarBootstrap = () => {
             </nav>
             {isDropdownOpen && (
                 <div className="categoryMenu" ref={dropdownRef}>
-                    {categorys.map(({ name, img, path }) => (
+                    {categorys.map(({ name, img, imgHover, imgClick, imgActive, path }) => (
                         <div className="nav-item-category" key={name}>
-                            <NavLink className="nav-link-category" to={path} onClick={() => activateCategory(name)}>
+                            <NavLink className="nav-link-category" to={path} onClick={() => handleCategoryClick(name)} onMouseUp={() => activateCategory(name)}>
                                 <div className="divImgCateg">
-                                    <img src={img} alt={name} className={`imgCategory ${name === activeCategory ? 'active-link' : ''}`} />
+                                    <img
+                                        src={
+                                            name === activeCategory
+                                                ? imgActive
+                                                : name === clickedCategory
+                                                    ? imgClick
+                                                    : name === hoveredCategory
+                                                        ? imgHover
+                                                        : img
+                                        }
+                                        alt={name}
+                                        className="imgCategory"
+                                        onMouseEnter={() => handleMouseEnter(name)}
+                                        onMouseLeave={handleMouseLeave}
+                                        onMouseUp={() => activateCategory(name)}
+                                    />
                                 </div>
                                 <p className='nameCategory'>{name}</p>
                             </NavLink>

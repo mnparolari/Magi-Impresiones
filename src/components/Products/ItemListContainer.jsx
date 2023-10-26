@@ -3,13 +3,13 @@ import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 import ItemList from './ItemList'
 import { useParams } from 'react-router-dom'
-import souvenirImg from '../../assets/images/regalo_blanco.png'
-import papeleriaImg from '../../assets/images/papeleria_blanco.png';
-import regalosImg from '../../assets/images/regalosespeciales_blanco.png';
-import textilImg from '../../assets/images/remera_blanco.png';
-import mateImg from '../../assets/images/mate_blanco.png';
-import beberImg from '../../assets/images/bebida_blanco.png';
-import mascotasImg from '../../assets/images/perro_blanco.png';
+import souvenirImg from '../../assets/images/souvenirDefault.png'
+import papeleriaImg from '../../assets/images/papeleriaDefault.png';
+import regalosImg from '../../assets/images/regalosespecialesDefault.png';
+import textilImg from '../../assets/images/remeraDefault.png';
+import mateImg from '../../assets/images/mateDefault.png';
+import beberImg from '../../assets/images/botellaDefault.png';
+import mascotasImg from '../../assets/images/mascotaDefault.png';
 
 const ItemListContainer = () => {
 

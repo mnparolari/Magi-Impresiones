@@ -186,15 +186,6 @@ header {
     margin-right: 2.5rem;
 }
 
-.imgCategory:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    border-radius: 5px;
-    background-color: #D2E9A3;
-    opacity: 0.9;
-}
-
-
 .nav-item-category {
     display: flex;
     flex-direction: row;
@@ -208,14 +199,20 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+}
+
+.imgCategory {
+    width: 70px;
+    transition: transform 0.3s ease;
 }
 
 
-.imgCategory {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
+.imgCategory:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #D2E9A3;
+    opacity: 0.9;
 }
 
 .nameCategory {
@@ -262,5 +259,5 @@ header {
 
 .active-link {
     background-color: #D2E9A3;
-    border-radius: 5px;
+    border-radius: 50%;
 }
