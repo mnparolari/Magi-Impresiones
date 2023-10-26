@@ -87,7 +87,7 @@ const ItemListContainer = () => {
         <div className='nameCategoryResponsive'>
           <h4 className='titleCategory'>Productos &gt; {categoryInfo.name}</h4>
           <div className='imageContainer'>
-            <img className='imgCategory' src={categoryInfo.img} alt={categoryInfo.name} />
+            <img className='imgCategoryResponsive' src={categoryInfo.img} alt={categoryInfo.name} />
           </div>
         </div>
       )}
