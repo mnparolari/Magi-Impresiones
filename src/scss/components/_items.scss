@@ -18,14 +18,14 @@
 
         .card-img-top {
             border-radius: 25px;
-            height: 230px;
-            
+            width: 200px;
+            height: 200px;
         }
 
         .card-body {
             font-family: $font-primary;
             color: nth($color-palette, 2);
-            
+
             .card-title {
                 font-weight: 600;
                 font-size: 17px;
@@ -35,21 +35,21 @@
                 font-weight: 600;
                 font-size: 13px;
             }
+        }
+        .btn-primary {
+            font-family: $font-primary;
+            background-color: nth($color-palette, 6);
+            border-color: nth($color-palette, 11);
+            color: nth($color-palette, 11);
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            text-align: left;
+            width: 230px;
+            border-radius: 30px;
 
-            .btn-primary {
-                background-color: nth($color-palette, 6);
-                border-color: nth($color-palette, 11);
+            &:hover {
+                background-color: rgb(40, 167, 26, 0.2);
                 color: nth($color-palette, 11);
-                font-weight: bold;
-                transition: background-color 0.3s ease;
-                text-align: left;
-                width: 230px;
-                border-radius: 30px;
-
-                &:hover {
-                    background-color: rgb(40, 167, 26, 0.2);
-                    color: nth($color-palette, 11);
-                }
             }
         }
     }
@@ -75,11 +75,11 @@
             color: nth($color-palette, 2);
             font-size: 18px;
         }
-        
+
         .imageContainer {
             border-radius: 50%;
             margin-top: 15px;
-            
+
             .imgCategoryResponsive {
                 width: 60px;
             }

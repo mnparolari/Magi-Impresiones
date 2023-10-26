@@ -186,7 +186,7 @@
     .image-container {
         justify-content: center;
         position: relative;
-        width: 100%;    
+        width: 100%;
     }
 
     .textContainer {
@@ -200,7 +200,7 @@
         justify-content: center;
         align-items: center;
         max-height: 30%;
-        width: 100%; 
+        width: 100%;
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         overflow: hidden;
@@ -326,6 +326,14 @@
     }
 }
 
+@media screen and (max-width: 620px) {
+    .cardContainer .card .btn-primary {
+        width: 210px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 590px) {
     .image-container .textContainer .titleCarousel {
         font-size: 15px;
@@ -347,11 +355,6 @@
 
     .listContainer {
         grid-template-columns: 1fr;
-    }
-
-    .cardContainer .card .card-body .btn-primary {
-        width: 210px;
-        font-size: 13px;
     }
 
     .sectionContainerProducts .nameCategoryResponsive {
@@ -437,7 +440,7 @@
         width: 50%;
         height: 40px;
     }
-    
+
     .carousel .overlayHidden .btn-hidden {
         font-size: 15px;
     }
