@@ -76,7 +76,7 @@ const Contacts = () => {
           </div>
           <div className='emailContainer'>
             <div className="col-md-4">
-              <textarea className="form-control" name='message' value={personalData.message} id="exampleFormControlTextarea1" rows="3" placeholder='Mensaje' onChange={handleChange}></textarea>
+              <textarea className="form-control" name='message' value={personalData.message} id="FormControlTextarea"  placeholder='Mensaje' onChange={handleChange}></textarea>
             </div>
           </div>
         </form>

@@ -212,7 +212,7 @@
     }
 
     .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-        width: 50%;
+        width: auto;
     }
 
     .cardContainer {
@@ -224,11 +224,6 @@
     }
 }
 
-@media screen and (max-width: 770px) {
-    .sectionContacts .formContainer .row .namePhoneContainer {
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width: 750px) {
     .bodyHomeContainer .imgContainer #imageHiddenResponsive {
@@ -342,9 +337,7 @@
     }
 
     .contenedorLogo2 .logo {
-        height: 16vh;
         margin-right: 2.2rem;
-        margin-top: 1rem;
     }
 
     #contactos {

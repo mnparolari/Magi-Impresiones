@@ -78,7 +78,7 @@
   border-radius: 0px 30px 0px 30px;
 }
 .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-  width: 26%;
+  width: 40%;
 }
 
 .sectionContacts {
@@ -134,6 +134,10 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
+}
+.sectionContacts .formContainer .row .emailContainer .col-md-4 {
+  display: flex;
+  align-items: center;
 }
 .sectionContacts .formContainer .row .emailContainer .col-md-4 .form-control {
   border-color: #007680;
@@ -1092,18 +1096,13 @@ header {
     margin: 50px 0px;
   }
   .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-    width: 50%;
+    width: auto;
   }
   .cardContainer {
     justify-content: center;
   }
   .listContainer {
     grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (max-width: 770px) {
-  .sectionContacts .formContainer .row .namePhoneContainer {
-    flex-direction: column;
   }
 }
 @media screen and (max-width: 750px) {
@@ -1196,9 +1195,7 @@ header {
     font-size: 18px;
   }
   .contenedorLogo2 .logo {
-    height: 16vh;
     margin-right: 2.2rem;
-    margin-top: 1rem;
   }
   #contactos {
     margin-top: 1.4rem;
