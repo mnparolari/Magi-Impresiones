@@ -1305,6 +1305,11 @@ header {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 350px) {
+  .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
+    width: 95%;
+  }
+}
 @media screen and (min-width: 461px) {
   .nav-item {
     margin-bottom: 2rem !important;
