@@ -390,6 +390,9 @@ a {
 .image-container {
   display: flex;
   align-items: center;
+  border: solid 2px #FFFCFA;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px #FFFCFA;
 }
 
 .overlay {
@@ -508,6 +511,10 @@ a {
 .image-container .textContainer .textCarousel {
   color: #343D41;
   font-size: 15px;
+}
+
+.overlayHidden {
+  display: none;
 }
 
 .blockContainer {
@@ -1063,6 +1070,70 @@ header {
     width: 150px;
     text-align: center;
   }
+  .carousel-item img {
+    max-width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .image-container {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  .textContainer {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    background-color: #007680;
+    opacity: 0.9;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 30%;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .image-container .textContainer .titleCarousel .magiFont {
+    color: #fff;
+  }
+  .image-container .textContainer .titleCarousel {
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+  }
+  #title3 {
+    margin-top: 20px;
+  }
+  .textCarousel {
+    display: none;
+  }
+  .overlay {
+    display: none;
+  }
+  .carousel .overlayHidden {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 32px;
+    width: 50%;
+    height: 70px;
+  }
+  .carousel .overlayHidden .btn-hidden {
+    color: #007680;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bolder;
+  }
 }
 @media screen and (max-width: 860px) {
   .image-container .textContainer .titleCarousel {
@@ -1150,6 +1221,13 @@ header {
     display: flex;
     margin-top: 50px;
   }
+  .carousel .overlayHidden {
+    width: 50%;
+    height: 50px;
+  }
+  .carousel .overlayHidden .btn-hidden {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 495px) {
   .container-mobile {
@@ -1199,6 +1277,15 @@ header {
   }
   #contactos {
     margin-top: 1.4rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .carousel .overlayHidden {
+    width: 50%;
+    height: 40px;
+  }
+  .carousel .overlayHidden .btn-hidden {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 461px) {

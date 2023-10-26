@@ -59,9 +59,9 @@ const Carousel = () => {
                         onMouseLeave={() => setHovered(false)}
                     >
                         <div className="image-container">
-                            <img src={carousel3} className="d-block w-100" alt="..." />
+                            <img src={carousel3} className="d-block w-100" alt="Magi" />
                             <div className='textContainer'>
-                                <h5 className='titleCarousel'>¡No dejes pasar la oportunidad de convertir tu cumpleaños en un evento mágico y personalizado! </h5>
+                                <h5 className='titleCarousel' id='title3'>¡No dejes pasar la oportunidad de convertir tu cumpleaños en un evento mágico y personalizado! </h5>
                                 {hovered && (
                                     <div className="overlay">
                                         <button className="btn btn-three" onClick={() => navigate(`/souvenir`)}>Quiero ver más</button>
@@ -81,6 +81,9 @@ const Carousel = () => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
+            <div className="overlayHidden">
+                <button className="btn btn-hidden" onClick={() => navigate(`/productos`)}>Quiero ver más</button>
+            </div>
         </div>
     )
 }

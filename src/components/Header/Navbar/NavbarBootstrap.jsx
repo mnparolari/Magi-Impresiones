@@ -103,7 +103,7 @@ const NavbarBootstrap = () => {
     const closeMenu = () => {
         const navbarToggler = document.querySelector('.navbar-toggler');
         if (navbarToggler && navbarToggler.getAttribute("aria-expanded") === "true") {
-            navbarToggler.click(); // Esto emula un clic en el botón, lo que debería cerrar el menú
+            navbarToggler.click();
         }
     };
 
@@ -166,7 +166,7 @@ const NavbarBootstrap = () => {
                 <div className="container-fluid">
                     <div className="container-mobile">
                         <div className="container">
-                            <Link to={"/"} className="nav-link-logo">
+                            <Link to={"/"} className="nav-link-logo" onClick={() => closeMenu()}>
                                 <img src={logo} alt="StoreLogo" className="logo" />
                             </Link>
                         </div>
