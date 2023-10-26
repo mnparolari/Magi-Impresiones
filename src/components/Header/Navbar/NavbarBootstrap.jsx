@@ -127,9 +127,6 @@ const NavbarBootstrap = () => {
 
     const activateLink = (linkName) => {
         setActiveLink(linkName);
-        setActiveCategory(null); 
-        setClickedCategory(null); 
-        closeMenu();
     };
 
     const handleMouseEnter = (categoryName) => {
@@ -141,9 +138,7 @@ const NavbarBootstrap = () => {
     };
 
     const handleCategoryClick = (categoryName) => {
-        console.log('Category clicked:', categoryName);
         setClickedCategory(categoryName);
-        setHoveredCategory(null);
     };
 
     const activateCategory = (categoryName) => {
