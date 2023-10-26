@@ -77,15 +77,11 @@
         }
         
         .imageContainer {
-            background-color: nth($color-palette, 1);
-            padding: 10px;
             border-radius: 50%;
             margin-top: 15px;
             
             .imgCategoryResponsive {
-                width: auto;
-                height: 50px;
-                padding: 5px;
+                width: 60px;
             }
         }
     }
