@@ -62,20 +62,20 @@ const Contacts = () => {
         <h3 className='formh3'>Envianos un mensaje</h3>
         <form className="row" onSubmit={handleSubmit}>
           <div className='namePhoneContainer'>
-            <div className="col-md-2">
+            <div className="col-md-4">
               <input type="name" name='name' value={personalData.name} className="form-control" id="inputName4" placeholder='Nombre y apellido' onChange={handleChange} />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-4">
               <input type="phone" name='phone' value={personalData.phone} className="form-control" id="inputPhone4" placeholder='Teléfono' onChange={handleChange} />
             </div>
           </div>
           <div className='emailContainer'>
-            <div className="col-4">
+            <div className="col-md-4">
               <input type="email" name='email' value={personalData.email} className="form-control" id="inputEmail4" placeholder="Mail" onChange={handleChange} />
             </div>
           </div>
           <div className='emailContainer'>
-            <div className="col-4">
+            <div className="col-md-4">
               <textarea className="form-control" name='message' value={personalData.message} id="exampleFormControlTextarea1" rows="3" placeholder='Mensaje' onChange={handleChange}></textarea>
             </div>
           </div>

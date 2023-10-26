@@ -120,25 +120,22 @@
 }
 .sectionContacts .formContainer .row .namePhoneContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-}
-.sectionContacts .formContainer .row .namePhoneContainer .col-md-2 {
   padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
-.sectionContacts .formContainer .row .namePhoneContainer .col-md-2 .form-control {
+.sectionContacts .formContainer .row .namePhoneContainer .col-md-4 .form-control {
   border-color: #007680;
+  margin-top: 10px;
 }
 .sectionContacts .formContainer .row .emailContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 5px;
 }
-.sectionContacts .formContainer .row .emailContainer .col-4 .form-control {
+.sectionContacts .formContainer .row .emailContainer .col-md-4 .form-control {
   border-color: #007680;
 }
 .sectionContacts .formContainer .btnContainer {
