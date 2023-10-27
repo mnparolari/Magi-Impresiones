@@ -327,7 +327,7 @@
     }
 
     .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-        max-width: auto;
+        max-width: 100%;
     }
 
     .cardContainer {
@@ -484,9 +484,9 @@
 }
 
 @media screen and (max-width: 350px) {
-    // .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-    //     width: 85%;
-    // }
+    .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
+        width: 85%;
+    }
 }
 
 //-------------------------------------------------------------------------------//

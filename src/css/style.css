@@ -1213,7 +1213,7 @@ header {
     margin: 50px 0px;
   }
   .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-    max-width: auto;
+    max-width: 100%;
   }
   .cardContainer {
     justify-content: center;
@@ -1335,6 +1335,11 @@ header {
   }
   .carousel .overlayHidden .btn-hidden {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
+    width: 85%;
   }
 }
 @media screen and (min-width: 461px) {
