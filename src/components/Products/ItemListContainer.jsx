@@ -16,7 +16,7 @@ const ItemListContainer = () => {
   const categorys = [
     {
       name: 'Souvenir',
-      img: '../../assets/images/souvenirActive.png',
+      img: 'https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/souvenirActive.png?alt=media&token=0addcc31-5623-46ea-bdc9-34a7ae7698f3&_gl=1*1d381py*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5ODQ1MDM0MS41MC4xLjE2OTg0NTAzNzMuMjguMC4w',
       path: 'souvenir'
     },
     {
