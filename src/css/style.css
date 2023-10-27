@@ -997,7 +997,7 @@ header {
     background-color: rgb(255, 255, 255);
     padding-top: 4rem;
   }
-  .logo {
+  .nav-link-logo .logo {
     margin-top: 50px;
     padding-top: 50px;
   }
