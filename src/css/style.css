@@ -1213,7 +1213,7 @@ header {
     margin: 50px 0px;
   }
   .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-    width: 100%;
+    width: auto;
   }
   .cardContainer {
     justify-content: center;

@@ -16,7 +16,7 @@ const ItemListContainer = () => {
   const categorys = [
     {
       name: 'Souvenir',
-      img: souvenirImg,
+      img: '../../assets/images/souvenirActive.png',
       path: 'souvenir'
     },
     {
