@@ -181,82 +181,82 @@ const NavbarBootstrap = () => {
 
     return (
         <header>
-            <nav className="navbar navbar-expand-lg" id='navbar-navbar'>
-                <div className="container-fluid">
-                    <div className="container-mobile">
-                        <div className="container">
-                            <Link to={"/"} className="nav-link-logo" onClick={() => closeMenu()}>
-                                <img src={logo} alt="StoreLogo" className="logo" />
-                            </Link>
+                <nav className="navbar navbar-expand-lg" id='navbar-navbar'>
+                    <div className="container-fluid">
+                        <div className="container-mobile">
+                            <div className="container">
+                                <Link to={"/"} className="nav-link-logo" onClick={() => closeMenu()}>
+                                    <img src={logo} alt="StoreLogo" className="logo" />
+                                </Link>
+                            </div>
+                            <button className="navbar-toggler" type="button" onClick={toggleMobileMenu} data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon">☰</span>
+                            </button>
                         </div>
-                        <button className="navbar-toggler" type="button" onClick={toggleMobileMenu} data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon">☰</span>
-                        </button>
-                    </div>
-                    <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <div className="navbar-nav">
-                            <div className="nav-item" id="inicio">
-                                <NavLink to={'/'} className={`nav-link-home ${activeLink === 'Inicio' ? 'active-link-home' : ''}`}
-                                    onClick={() => {
-                                        activateLink('Inicio');
-                                        activateCategory(null);
-                                        closeMenu();
-                                    }}>
-                                    Inicio</NavLink>
-                            </div>
-                            <div className="nav-item" id="aboutmagi">
-                                <NavLink to={'/sobremagi'} className={`nav-link-about ${activeLink === 'SobreMagi' ? 'active-link-about' : ''}`}
-                                    onClick={() => {
-                                        activateLink('SobreMagi');
-                                        activateCategory(null);
-                                        closeMenu();
-                                    }}
-                                    style={{ whiteSpace: 'nowrap' }}>
-                                    Sobre <span className='magiFontNav'>magi</span></NavLink>
-                            </div>
-                            <div className="nav-item" id="nuestrosprods">
-                                <NavLink to={'/productos'} className={`nav-link-products ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
-                                    onClick={(e) => {
-                                        toggleDropdown(e);
-                                        activateLink('NuestroProductos');
-                                        activateCategory(null);
-                                    }}
-                                    aria-expanded={isDropdownOpen ? 'true' : 'false'}
-                                    style={{ whiteSpace: 'nowrap' }}>
-                                    Nuestros productos
-                                </NavLink>
-                                {/* Componente para versión móvil */}
-                                {isDropdownOpen && (
-                                    <div className="mobile-category-container">
-                                        <ul className="mobile-category-list">
-                                            {categorys.map(({ name, path }) => (
-                                                <li className="mobileCategories" key={name}>
-                                                    <NavLink to={path} onClick={() => {
-                                                        setIsDropdownOpen(false);
-                                                        activateCategory(name);
-                                                        closeMenu();
-                                                    }}>
-                                                        {name}
-                                                    </NavLink>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                )}
-                            </div>
-                            <div className="nav-item" id="contactos">
-                                <NavLink to={'/contactos'} id="contactanos" className={`nav-link-contacts ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
-                                    onClick={() => {
-                                        activateLink('Contactos');
-                                        activateCategory(null);
-                                        closeMenu();
-                                    }}>
-                                    Contactanos</NavLink>
+                        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                            <div className="navbar-nav">
+                                <div className="nav-item" id="inicio">
+                                    <NavLink to={'/'} className={`nav-link-home ${activeLink === 'Inicio' ? 'active-link-home' : ''}`}
+                                        onClick={() => {
+                                            activateLink('Inicio');
+                                            activateCategory(null);
+                                            closeMenu();
+                                        }}>
+                                        Inicio</NavLink>
+                                </div>
+                                <div className="nav-item" id="aboutmagi">
+                                    <NavLink to={'/sobremagi'} className={`nav-link-about ${activeLink === 'SobreMagi' ? 'active-link-about' : ''}`}
+                                        onClick={() => {
+                                            activateLink('SobreMagi');
+                                            activateCategory(null);
+                                            closeMenu();
+                                        }}
+                                        style={{ whiteSpace: 'nowrap' }}>
+                                        Sobre <span className='magiFontNav'>magi</span></NavLink>
+                                </div>
+                                <div className="nav-item" id="nuestrosprods">
+                                    <NavLink to={'/productos'} className={`nav-link-products ${activeLink === 'NuestroProductos' ? 'active-link-products' : ''}`}
+                                        onClick={(e) => {
+                                            toggleDropdown(e);
+                                            activateLink('NuestroProductos');
+                                            activateCategory(null);
+                                        }}
+                                        aria-expanded={isDropdownOpen ? 'true' : 'false'}
+                                        style={{ whiteSpace: 'nowrap' }}>
+                                        Nuestros productos
+                                    </NavLink>
+                                    {/* Componente para versión móvil */}
+                                    {isDropdownOpen && (
+                                        <div className="mobile-category-container">
+                                            <ul className="mobile-category-list">
+                                                {categorys.map(({ name, path }) => (
+                                                    <li className="mobileCategories" key={name}>
+                                                        <NavLink className="mobile-link" to={path} onClick={() => {
+                                                            setIsDropdownOpen(false);
+                                                            activateCategory(name);
+                                                            closeMenu();
+                                                        }}>
+                                                            {name}
+                                                        </NavLink>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+                                </div>
+                                <div className="nav-item" id="contactos">
+                                    <NavLink to={'/contactos'} id="contactanos" className={`nav-link-contacts ${activeLink === 'Contactos' ? 'active-link-contacts' : ''}`}
+                                        onClick={() => {
+                                            activateLink('Contactos');
+                                            activateCategory(null);
+                                            closeMenu();
+                                        }}>
+                                        Contactanos</NavLink>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
             {isDropdownOpen && (
                 <div className="categoryMenu" ref={dropdownRef}>
                     {categorys.map(({ name, img, imgHover, imgClick, imgActive, path }) => (
