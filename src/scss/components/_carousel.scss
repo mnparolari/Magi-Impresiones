@@ -144,13 +144,14 @@
     font-size: 15px;
 }
 
-.visually-hidden {
-    color: red;
+.carousel-control-next-icon {
+    background-color: #007680;
     border-radius: 50%;
     opacity: 0.9;
+    padding: 20px;
 }
 .carousel-control-prev-icon {
-    color: gray;
+    background-color: #007680;
     border-radius: 50%;
     opacity: 0.9;
 }
