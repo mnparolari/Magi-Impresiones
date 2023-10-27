@@ -23,7 +23,7 @@
 
     .navbar {
         background-color: #fff;
-        
+
     }
 
     .navbar-nav {
@@ -41,7 +41,7 @@
         margin-left: 0px;
         border-bottom-left-radius: 3%;
         border-bottom-right-radius: 3%;
-        
+
     }
 
     .container-fluid {
@@ -188,6 +188,18 @@
         padding-top: 50px;
         margin-top: 120px;
     }
+
+    .sectionContainerProducts {
+        margin-top: 100px;
+    }
+
+    .sectionContacts {
+        margin-top: 120px;
+    }
+
+    .sectionAbout {
+        margin-top: 90px;
+    }
 }
 
 @media screen and (max-width: 890px) {
@@ -294,6 +306,10 @@
         margin-top: 1rem;
         font-weight: 700;
         height: 0px;
+    }
+
+    .about {
+        margin-top: 0px;
     }
 
     .sectionContacts .infoabout {

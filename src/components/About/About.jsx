@@ -4,7 +4,7 @@ import '../../scss/components/_about.scss';
 
 const Contacts = () => {
   return (
-    <section className='sectionContacts'>
+    <section className='sectionContacts about'>
       <div className='contactsContainer'>
         <div className='titleContainer'>
           <h2 className='conocemas'>Conocé más sobre nosotros</h2>
@@ -18,7 +18,6 @@ const Contacts = () => {
           <img src={logo} alt="StoreLogo" className="logo" />
         </div>
       </div>
-
     </section>
   )
 }
