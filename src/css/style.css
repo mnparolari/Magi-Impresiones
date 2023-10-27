@@ -517,7 +517,6 @@ a {
   background-color: #007680;
   border-radius: 50%;
   opacity: 0.9;
-  padding: 20px;
 }
 
 .carousel-control-prev-icon {
@@ -930,6 +929,11 @@ header {
   border-radius: 50%;
 }
 
+.container-mobile {
+  margin: 0px;
+  padding: 0px;
+}
+
 .floatWhatsapp {
   position: fixed;
   cursor: pointer;
@@ -949,13 +953,21 @@ header {
 }
 @media screen and (max-width: 992px) {
   header {
-    padding-left: 0rem;
+    padding-left: 0px;
     margin-bottom: 70px;
+    height: 100%;
+    left: 0;
+  }
+  .body-hidden {
+    overflow: hidden;
+  }
+  .navbar {
+    background-color: #fff;
   }
   .navbar-nav {
-    background-color: rgba(252, 252, 249, 0.918);
-    height: 95%;
-    width: 83vw;
+    background-color: #fff;
+    height: 100%;
+    width: 90vw;
     position: fixed;
     font-size: 20px;
     flex-direction: column;
@@ -969,9 +981,9 @@ header {
     border-bottom-right-radius: 3%;
   }
   .container-fluid {
-    height: 23vh !important;
     width: 100vh;
     z-index: 99;
+    margin: 0px;
     position: fixed;
     background-color: rgb(255, 255, 255);
   }
@@ -1308,7 +1320,7 @@ header {
 }
 @media screen and (max-width: 350px) {
   .sectionContacts .contenedorLogo1 .contenedorLogo2 .logo {
-    width: 95%;
+    width: 85%;
   }
 }
 @media screen and (min-width: 461px) {

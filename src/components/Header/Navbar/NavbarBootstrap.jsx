@@ -98,7 +98,10 @@ const NavbarBootstrap = () => {
     const [activeCategory, setActiveCategory] = useState(null);
     const [hoveredCategory, setHoveredCategory] = useState(null);
     const [clickedCategory, setClickedCategory] = useState(null);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const dropdownRef = useRef(null);
+    const bodyRef = useRef(document.body);
+
 
     const closeMenu = () => {
         const navbarToggler = document.querySelector('.navbar-toggler');
@@ -122,6 +125,22 @@ const NavbarBootstrap = () => {
     const toggleDropdown = (e) => {
         e.stopPropagation();
         setIsDropdownOpen(!isDropdownOpen);
+
+        if (!isDropdownOpen) {
+            bodyRef.current.classList.add('body-hidden');
+        } else {
+            bodyRef.current.classList.remove('body-hidden');
+        }
+    };
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+
+        if (!isMobileMenuOpen) {
+            bodyRef.current.classList.add('body-hidden');
+        } else {
+            bodyRef.current.classList.remove('body-hidden');
+        }
     };
 
 
@@ -162,7 +181,7 @@ const NavbarBootstrap = () => {
 
     return (
         <header>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg" id='navbar-navbar'>
                 <div className="container-fluid">
                     <div className="container-mobile">
                         <div className="container">
@@ -170,7 +189,7 @@ const NavbarBootstrap = () => {
                                 <img src={logo} alt="StoreLogo" className="logo" />
                             </Link>
                         </div>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler" type="button" onClick={toggleMobileMenu} data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon">☰</span>
                         </button>
                     </div>
