@@ -13,8 +13,6 @@
     header {
         padding-left: 0px;
         margin-bottom: 70px;
-        height: 100%;
-        left: 0
     }
 
     .body-hidden {
@@ -41,11 +39,9 @@
         margin-left: 0px;
         border-bottom-left-radius: 3%;
         border-bottom-right-radius: 3%;
-
     }
 
     .container-fluid {
-        // height: 23vh !important;
         width: 100vh;
         z-index: 99;
         margin: 0px;
@@ -56,20 +52,19 @@
 
     .container-mobile {
         display: flex;
-        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
         padding-right: 5rem;
-        // height: 10vh !important;
         width: 100vw;
         z-index: 99;
         position: fixed;
         background-color: rgb(255, 255, 255);
-        padding-top: 4rem;
     }
 
     .nav-link-logo .logo {
         margin-top: 50px;
         padding-top: 50px;
-
     }
 
     .navbar-toggler-icon {
@@ -195,10 +190,6 @@
 
     .sectionContacts {
         margin-top: 120px;
-    }
-
-    .sectionAbout {
-        margin-top: 90px;
     }
 }
 
@@ -467,6 +458,10 @@
 
     .contenedorLogo2 .logo {
         margin-right: 2.2rem;
+    }
+
+    .about {
+        margin-top: 80px;
     }
 
     #contactos {

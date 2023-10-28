@@ -956,8 +956,6 @@ header {
   header {
     padding-left: 0px;
     margin-bottom: 70px;
-    height: 100%;
-    left: 0;
   }
   .body-hidden {
     overflow: hidden;
@@ -991,13 +989,14 @@ header {
   }
   .container-mobile {
     display: flex;
-    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
     padding-right: 5rem;
     width: 100vw;
     z-index: 99;
     position: fixed;
     background-color: rgb(255, 255, 255);
-    padding-top: 4rem;
   }
   .nav-link-logo .logo {
     margin-top: 50px;
@@ -1105,9 +1104,6 @@ header {
   }
   .sectionContacts {
     margin-top: 120px;
-  }
-  .sectionAbout {
-    margin-top: 90px;
   }
 }
 @media screen and (max-width: 890px) {
@@ -1325,6 +1321,9 @@ header {
   }
   .contenedorLogo2 .logo {
     margin-right: 2.2rem;
+  }
+  .about {
+    margin-top: 80px;
   }
   #contactos {
     margin-top: 1.4rem;
