@@ -1099,12 +1099,6 @@ header {
     padding-top: 50px;
     margin-top: 120px;
   }
-  .sectionContainerProducts {
-    margin-top: 100px;
-  }
-  .sectionContacts {
-    margin-top: 120px;
-  }
 }
 @media screen and (max-width: 890px) {
   .cardContainer .card .card-body .btn-primary {
@@ -1195,9 +1189,6 @@ header {
     margin-top: 1rem;
     font-weight: 700;
     height: 0px;
-  }
-  .about {
-    margin-top: 0px;
   }
   .sectionContacts .infoabout {
     font-size: 16px;
@@ -1313,6 +1304,12 @@ header {
   .sectionContacts .contactsContainer .titleContainer .conocemas {
     font-size: 18px;
   }
+  .sectionContacts .contactsContainer .titleContainer .contactsh2 {
+    font-size: 18px;
+  }
+  .sectionContacts .contactsContainer .titleContainer .contactsh3 {
+    font-size: 16px;
+  }
   .sectionContacts .infoabout {
     font-size: 14px;
   }
@@ -1321,9 +1318,6 @@ header {
   }
   .contenedorLogo2 .logo {
     margin-right: 2.2rem;
-  }
-  .about {
-    margin-top: 80px;
   }
   #contactos {
     margin-top: 1.4rem;

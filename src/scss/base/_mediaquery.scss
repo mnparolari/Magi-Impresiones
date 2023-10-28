@@ -184,13 +184,13 @@
         margin-top: 120px;
     }
 
-    .sectionContainerProducts {
-        margin-top: 100px;
-    }
+    // .sectionContainerProducts {
+    //     margin-top: 100px;
+    // }
 
-    .sectionContacts {
-        margin-top: 120px;
-    }
+    // .sectionContacts {
+    //     margin-top: 120px;
+    // }
 }
 
 @media screen and (max-width: 890px) {
@@ -297,10 +297,6 @@
         margin-top: 1rem;
         font-weight: 700;
         height: 0px;
-    }
-
-    .about {
-        margin-top: 0px;
     }
 
     .sectionContacts .infoabout {
@@ -448,6 +444,14 @@
         font-size: 18px;
     }
 
+    .sectionContacts .contactsContainer .titleContainer .contactsh2 {
+        font-size: 18px;
+    }
+
+    .sectionContacts .contactsContainer .titleContainer .contactsh3 {
+        font-size: 16px;
+    }
+
     .sectionContacts .infoabout {
         font-size: 14px;
     }
@@ -458,10 +462,6 @@
 
     .contenedorLogo2 .logo {
         margin-right: 2.2rem;
-    }
-
-    .about {
-        margin-top: 80px;
     }
 
     #contactos {
