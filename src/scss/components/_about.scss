@@ -47,7 +47,8 @@
             border-radius: 0px 30px 0px 30px;
 
             .logo {
-                width: 40%;
+                max-width: 100%; /* Limitar el ancho máximo al ancho del contenedor */
+                height: auto;
             }
         }
     }
