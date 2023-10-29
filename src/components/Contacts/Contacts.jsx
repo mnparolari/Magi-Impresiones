@@ -22,6 +22,8 @@ const Contacts = () => {
 
   const { name, phone, email, message } = personalData
 
+  const YOUR_FORMSPREE_URL = 'https://formspree.io/f/mzbloqqn'
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (completedForm([name, phone, email, message])) {
@@ -32,18 +34,34 @@ const Contacts = () => {
         text: 'Debes completarlos para contactarse con nosotros',
       });
     } else {
-      setPersonaData({
-        name: '',
-        phone: '',
-        email: '',
-        message: ''
-      });
-      const MySwalThree = withReactContent(Swal)
-      MySwalThree.fire({
-        icon: 'success',
-        title: '¡Gracias!',
-        text: 'A la brevedad nos contactaremos con vos.',
-      });
+      fetch(YOUR_FORMSPREE_URL, {
+        method: 'POST',
+        body: JSON.stringify(personalData),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+        .then((response) => {
+          if (response.ok) {
+            setPersonaData({
+              name: '',
+              phone: '',
+              email: '',
+              message: ''
+            });
+            const MySwalThree = withReactContent(Swal);
+            MySwalThree.fire({
+              icon: 'success',
+              title: '¡Gracias!',
+              text: 'A la brevedad nos contactaremos con vos.',
+            });
+          } else {
+            throw new Error('Error al enviar el formulario');
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+        });
     }
   };
 
@@ -60,7 +78,7 @@ const Contacts = () => {
       </div>
       <div className='formContainer'>
         <h3 className='formh3'>Envianos un mensaje</h3>
-        <form className="row" onSubmit={handleSubmit}>
+        <form className="row" onSubmit={handleSubmit} action= {YOUR_FORMSPREE_URL} method="POST">
           <div className='namePhoneContainer'>
             <div className="col-md-4">
               <input type="name" name='name' value={personalData.name} className="form-control" id="inputName4" placeholder='Nombre y apellido' onChange={handleChange} />

@@ -179,6 +179,8 @@ const NavbarBootstrap = () => {
         }
     }, [location, isDropdownOpen]);
 
+
+
     return (
         <header>
                 <nav className="navbar navbar-expand-lg" id='navbar-navbar'>
@@ -190,7 +192,7 @@ const NavbarBootstrap = () => {
                                 </Link>
                             </div>
                             <button className="navbar-toggler" type="button" onClick={toggleMobileMenu} data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon">☰</span>
+                                <span className="navbar-toggler-icon"> ☰ </span>
                             </button>
                         </div>
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -223,7 +225,7 @@ const NavbarBootstrap = () => {
                                         }}
                                         aria-expanded={isDropdownOpen ? 'true' : 'false'}
                                         style={{ whiteSpace: 'nowrap' }}>
-                                        Nuestros productos
+                                        Nuestros productos 
                                     </NavLink>
                                     {/* Componente para versión móvil */}
                                     {isDropdownOpen && (
