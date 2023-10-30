@@ -834,7 +834,7 @@ header {
     margin: 0px;
     position: fixed;
     background-color: rgb(255, 255, 255);
-    padding-left: 15px;
+    padding-left: 0;
   }
   .closeContainer {
     margin-left: auto;
@@ -859,9 +859,10 @@ header {
   .nav-link-logo .logo {
     margin-top: 50px;
     padding-top: 50px;
+    margin-left: 50px;
   }
   .navbar-toggler-icon {
-    margin-top: 50px;
+    margin-top: 60px;
     padding-top: 30px;
   }
   .nav-item {
