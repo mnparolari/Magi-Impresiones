@@ -18,6 +18,7 @@
     .body-hidden {
         overflow: hidden;
     }
+    
 
     .navbar {
         background-color: #fff;
@@ -72,17 +73,6 @@
         padding-top: 30px;
     }
 
-    .navbar-toggler {
-        margin-top: 1.5rem;
-        transition: transform 0.2s ease;
-        cursor: pointer;
-    }
-
-    .navbar-toggler:active {
-        transform: scale(1.1);
-        transition: all .3s ease;
-    }
-
     .nav-item {
         margin-top: 1.5rem;
         margin-bottom: 1rem;
@@ -91,7 +81,7 @@
     }
 
     .nav-link-home {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 100%;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -100,12 +90,12 @@
     .nav-link-home:hover {
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 15px;
+        padding-left: 25px;
         padding-right: 100%;
     }
 
     .nav-link-about {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 75%;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -114,12 +104,12 @@
     .nav-link-about:hover {
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 15px;
+        padding-left: 25px;
         padding-right: 74%;
     }
 
     .nav-link-products {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 75%;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -128,13 +118,13 @@
     .nav-link-products:hover {
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 15px;
+        padding-left: 25px;
         padding-right: 55%;
     }
 
 
     #contactanos {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 75%;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -143,7 +133,7 @@
     #contactanos:hover {
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 15px;
+        padding-left: 25px;
         padding-right: 75%;
     }
 
