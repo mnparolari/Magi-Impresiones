@@ -198,7 +198,8 @@ const NavbarBootstrap = () => {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <div className="navbar-nav">
                             <div className='closeContainer'>
-                                <button type="button" className="btn-close custom-close-button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Close"></button>
+                                <span className="material-symbols-outlined" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Close">close</span>
+                                {/* <button type="button" className="btn-close custom-close-button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Close"></button> */}
                             </div>
                             <div className="nav-item" id="inicio">
                                 <NavLink to={'/'} className={`nav-link-home ${activeLink === 'Inicio' ? 'active-link-home' : ''}`}
@@ -229,6 +230,7 @@ const NavbarBootstrap = () => {
                                     aria-expanded={isDropdownOpen ? 'true' : 'false'}
                                     style={{ whiteSpace: 'nowrap' }}>
                                     Nuestros productos
+                                    <span className="material-symbols-outlined" id='btn-collapse'>expand_more</span>
                                 </NavLink>
                                 {/* Componente para versión móvil */}
                                 {isDropdownOpen && (

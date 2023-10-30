@@ -780,7 +780,7 @@ header {
   padding: 0px;
 }
 
-.btn-close {
+.material-symbols-outlined {
   display: none;
 }
 
@@ -841,9 +841,12 @@ header {
     margin-right: 10px;
     margin-bottom: 15px;
   }
-  .btn-close {
+  .material-symbols-outlined {
     display: inline-block;
-    font-size: large;
+    font-size: xx-large;
+  }
+  #btn-collapse {
+    margin-left: 20px;
   }
   .container-mobile {
     display: flex;
@@ -900,6 +903,8 @@ header {
     padding-right: 75%;
     padding-top: 15px;
     padding-bottom: 15px;
+    display: flex;
+    align-items: center;
   }
   .nav-link-products:hover {
     padding-top: 15px;
