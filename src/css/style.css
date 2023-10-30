@@ -838,9 +838,12 @@ header {
   }
   .closeContainer {
     margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 15px;
   }
   .btn-close {
     display: inline-block;
+    font-size: large;
   }
   .container-mobile {
     display: flex;
