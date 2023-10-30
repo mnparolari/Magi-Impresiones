@@ -22,7 +22,6 @@
 
     .navbar {
         background-color: #fff;
-
     }
 
     .navbar-nav {
@@ -49,6 +48,14 @@
         position: fixed;
         background-color: rgb(255, 255, 255);
         padding-left: 0;
+    }
+
+    .closeContainer {
+        margin-left: auto
+    }
+
+    .btn-close {
+        display:inline-block;
     }
 
     .container-mobile {
