@@ -22,7 +22,7 @@ const Contacts = () => {
 
   const { name, phone, email, message } = personalData
 
-  const YOUR_FORMSPREE_URL = 'https://formspree.io/f/mzbloqqn'
+  const YOUR_FORMSPREE_URL = 'https://formspree.io/f/mvojlepe'
 
   const handleSubmit = (e) => {
     e.preventDefault();
