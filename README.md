@@ -21,8 +21,8 @@ _**MAGI CREACIONES**_ utiliza las siguientes tecnologías:
 - [Formpree](https://formspree.io/)
 - [Figma](https://www.figma.com/)
 
-
-##### Repositorio público de [GitHub](https://github.com/mnparolari/Magi-Impresiones)
+#### [Dominio:](https://magi-impresiones.vercel.app/)
+##### Repositorio público de [GitHub](https://github.com/mnparolari/Magi-Impresiones).
 Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 -------------------------
@@ -72,7 +72,7 @@ _**MAGI CREACIONES**_ uses the following technologies:
 - [Formpree](https://formspree.io/)
 - [Figma](https://www.figma.com/)
 
-
+#### [Domain:](https://magi-impresiones.vercel.app/)
 ##### Public [GitHub](https://github.com/mnparolari/Magi-Impresiones) Repository 
 Instructions for cloning a project [here](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
