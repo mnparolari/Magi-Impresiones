@@ -35,11 +35,10 @@ Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositorie
 
 ## Creado por 
 
-[Carla Storniolo]- UX-UI
-[Rodrigo Enter]- UX-UI
+Carla Storniolo- UX-UI
+Rodrigo Enter- UX-UI
 [Josefina Nieto](https://github.com/josefinamariannieto) - UX-UI
 
-Josefina Nieto - UX-UI 
 
 **Sólo el comienzo...**
 
