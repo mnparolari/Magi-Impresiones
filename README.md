@@ -19,9 +19,10 @@ _**MAGI CREACIONES**_ utiliza las siguientes tecnologías:
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - ^5.2.3
 - [SweetAlert2](https://sweetalert2.github.io/) - ^11.7.5
 - [Formpree](https://formspree.io/)
+- [Vercel](https://www.vercel.com/)
 - [Figma](https://www.figma.com/)
 
-#### Dominio: (https://magi-impresiones.vercel.app/)
+#### Dominio: https://magi-impresiones.vercel.app/
 ##### Repositorio público de [GitHub](https://github.com/mnparolari/Magi-Impresiones).
 Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
@@ -70,9 +71,10 @@ _**MAGI CREACIONES**_ uses the following technologies:
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - ^5.2.3
 - [SweetAlert2](https://sweetalert2.github.io/) - ^11.7.5
 - [Formpree](https://formspree.io/)
+- [Vercel](https://www.vercel.com/)
 - [Figma](https://www.figma.com/)
 
-#### [Domain:](https://magi-impresiones.vercel.app/)
+#### Domain: https://magi-impresiones.vercel.app/
 ##### Public [GitHub](https://github.com/mnparolari/Magi-Impresiones) Repository 
 Instructions for cloning a project [here](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
