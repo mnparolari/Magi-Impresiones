@@ -5,83 +5,24 @@
 
 --------------------------------------------------------------------------------------------------------
 
-RPM, La casa del vinilo es un e-commerce dedicado pura y exclusivamente a discos de vinilos. En su recorrido podrás encontrar:
+E-commerce estático dedicado pura y exclusivamente a la venta de productos sublimados e impresos de la empresa Magi Creaciones. En su recorrido podrás encontrar productos todos los productos realizados manualmente por sus dueños.
 
-- Discos destacados
-- Discos Nacionales
-- Discos Internacionales
-- Discos Usados
-- Discos Clásicos
-- ✨Y sobre todo, un viaje al recuerdo✨
-
-## Características generales del proyecto:
-
-El proyecto cuenta con 4 secciones principales: 
-* **Home**, representado por el **< ItemListContainer />**: Render de todos los productos en **{path="/"}**.
-* **Categorías**, representado por el **< ItemListContainer />**: Render de los productos filtrados en **{path="/:category"}**.
-* **Detalle del producto**, representado por el **< ItemDetailContainer/>**: Render del producto seleccionado + compra del producto en **{path="/:category/:id"}**.
-* **Carrito de compras**, representado por el **< Cart />**: Render de los productos seleccionados en **{path="/cart"}**.
-
-> Estas secciones están aplicadas en el 
-> componente ***< Rutas />***, que es llamado 
-> desde el componente padre del proyecto: ***< App />***.
-
-
-A su vez, el proyecto tiene otros subcomponentes que motorizan y abogan por el perfecto funcionamiento de la App:
-* **< Brand />:** Visualiza el encabezado del proyecto.
-* **< Navbar />:** Representa las diferentes categorías, junto al **< CartWidge />** desde donde se puede ingresar al Carrito.
-* **< ItemList />:**: Mapea los productos en el Home y en las categorías.
-* **< Item />:** Producto individidual renderizado en el Home y en las categorías.
-* **< ItemDetail />:** Muestra el detalle del producto seleccionado.
-* **< ItemCount />:** Representación de los botones para sumar, restar y seleccionar producto.
-* **< CartItem />:** Renderiza las cards de los productos seleccionados.
-* **< Form />:** Presenta los inputs con los datos personales para la validación de la compra.
-* **< Payment />:** Render de la tarjeta de crédito -creado con [react-credit-cards-2](https://www.npmjs.com/package/react-credit-cards-2)-.
-* **< Spinner />:** Representación del loading como transición entre componentes.
-* **< Footer />:** Pie de página.
-
-##### Custom Hooks: 
-* useCount(): Estados y funciones necesarias para el funcionamiento de ItemCount.
-* useFirebase(): Estados y funciones necesarias para la obtención de los productos y el envío de las órdenes de pago a Firebase vía API.
-* usePaymentFees(): Estados y funciones necesarias para el cálculo de intereses, cuotas y nuevos totales por el pago con tarjeta de crédito.
-
-##### Context: 
-* useContext(CartContext): Estados y funciones necesarias para las diferentes acciones a realizar con los productos (addToCart, isInCart, removeList, deleteItem, deleteQuantity).
-
-##### Helpers: 
-* index.js: Funciones reutilizables.
-
-#### Estilos:
-| Archivos | .CCS |
-| ------ | ------ |
-| Brand.jsx | [./brand.css] |
-| NavBar.jsx - NavbarItem.jsx | [./navbar.css] |
-| ItemListContainer.jsx - ItemList.jsx - Item.jsx | [./itemListStyle.css] |
-| ItemDetailContainer.jsx - ItemDetail.jsx - ItemCount.jsx | [./itemDetailStyle.css] |
-| CartWidget.jsx - Cart.jsx - CartItem.jsx | [./cart.css] |
-| Form.jsx | [./form.css] |
-| Payment.jsx | [./payment.css] |
-| Footer.jsx | [./footer.css] |
-| Spinner.jsx | [./spinner.css] |
-
-#### Otros:
-* firebase-config.jsx => Configuración para la utilización de Firebase.
-* palette-rpm.scss (carpeta public)=> Paleta de colores utilizada, obtenida de [Coolors](https://coolors.co/).
 
 ## Características técnicas del proyecto:
 
-_**RPM, La casa del vinilo**_ utiliza las siguientes tecnologías:
+_**MAGI CREACIONES**_ utiliza las siguientes tecnologías:
 
 - [React.js](https://react.dev/) - ^18.2.0
 - [Node.js](https://nodejs.org/es) - ^18.13.0
 - [NPM](https://www.npmjs.com/) - ^8.19.3
 - [Firebase](https://firebase.google.com/) - ^9.22.0
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - ^5.2.3
-- [materialize-css](https://materializecss.com/) - ^1.0.0-rc.2
-- [Toastify](https://fkhadra.github.io/react-toastify/introduction/) - ^9.1.3
 - [SweetAlert2](https://sweetalert2.github.io/) - ^11.7.5
+- [Formpree](https://formspree.io/)
+- [Figma](https://www.figma.com/)
 
-##### Repositorio público de [GitHub](https://github.com/mnparolari/RPM)
+
+##### Repositorio público de [GitHub](https://github.com/mnparolari/Magi-Impresiones)
 Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 -------------------------
@@ -94,9 +35,11 @@ Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositorie
 
 ## Creado por 
 
-const **Martín** = (**Nicolás**) => {
-    console.log(**Parolari**)
-};
+[Carla Storniolo]- UX-UI
+[Rodrigo Enter]- UX-UI
+[Josefina Nieto](https://github.com/josefinamariannieto) - UX-UI
+
+Josefina Nieto - UX-UI 
 
 **Sólo el comienzo...**
 
