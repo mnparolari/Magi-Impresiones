@@ -179,8 +179,6 @@ const NavbarBootstrap = () => {
         }
     }, [location, isDropdownOpen]);
 
-
-
     return (
         <header>
             <nav className="navbar navbar-expand-lg" id='navbar-navbar'>
@@ -199,7 +197,6 @@ const NavbarBootstrap = () => {
                         <div className="navbar-nav">
                             <div className='closeContainer'>
                                 <span className="material-symbols-outlined" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Close">close</span>
-                                {/* <button type="button" className="btn-close custom-close-button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Close"></button> */}
                             </div>
                             <div className="nav-item" id="inicio">
                                 <NavLink to={'/'} className={`nav-link-home ${activeLink === 'Inicio' ? 'active-link-home' : ''}`}
