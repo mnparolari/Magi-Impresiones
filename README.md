@@ -98,4 +98,4 @@ Rodrigo Enter - UX-UI.
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 
-**Project carried out by students received from Coderhouse from the "Royal Project" initiative, obtained as a benefit from the TOP10 awarded by the institution.**
+###### **Project carried out by students received from Coderhouse from the "Royal Project" initiative, obtained as a benefit from the TOP10 awarded by the institution.**
