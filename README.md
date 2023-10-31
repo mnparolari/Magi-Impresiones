@@ -1,4 +1,4 @@
-# MAGI CREACIONES. 
+# MAGI CREACIONES
 ## _Impresiones & sublimados_
 
 [![N|Solid](https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/logomagi.png?alt=media&token=1a51514c-ad50-4850-8960-e3926c04501a&_gl=1*10lomkp*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5ODc3NDM3MS41My4xLjE2OTg3NzQzOTMuMzguMC4w)](https://nodesource.com/products/nsolid)
