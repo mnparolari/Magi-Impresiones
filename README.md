@@ -95,7 +95,6 @@ Rodrigo Enter - UX-UI.
 [Martín De Innocentiis](https://github.com/MartinDeInnocentiis) - Desarrollo y programación.
 
 [Martín Parolari](https://github.com/mnparolari) - Desarrollo y programación.
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 
 ###### **Project carried out by students received from Coderhouse from the "Royal Project" initiative, obtained as a benefit from the TOP10 awarded by the institution.**
