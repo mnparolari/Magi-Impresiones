@@ -45,7 +45,7 @@ Rodrigo Enter - UX-UI.
 
 [Martín Parolari](https://github.com/mnparolari) - Desarrollo y programación.
 
-**Proyecto realizado por estudiantes recibidos de Coderhouse a partir de la iniciativa "Proyecto Real", obtenido como beneficio del TOP10 otorgado por la institución.**
+```sh**Proyecto realizado por estudiantes recibidos de Coderhouse a partir de la iniciativa "Proyecto Real", obtenido como beneficio del TOP10 otorgado por la institución.**```
 
 --------------------------------------------------------------------------------------------------------
 
