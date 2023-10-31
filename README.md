@@ -52,7 +52,7 @@ Rodrigo Enter - UX-UI.
 # MAGI CREACIONES
 ## _Prints and sublimations_
 
-[![N|Solid](https://firebasestorage.googleapis.com/v0/b/npm-la-casa-del-vinilo.appspot.com/o/RPM.png?alt=media&token=c8478a24-e62e-4a70-9f71-7e5aeb59273e&_gl=1*qw5m5s*_ga*MTczMTk5NTc2MC4xNjg0OTcyNTUw*_ga_CW55HF8NVT*MTY4NTY3MjEwMS45LjEuMTY4NTY3Mjc1MC4wLjAuMA..)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://firebasestorage.googleapis.com/v0/b/magi-impresiones.appspot.com/o/logomagi.png?alt=media&token=1a51514c-ad50-4850-8960-e3926c04501a&_gl=1*10lomkp*_ga*MTQwMjQwODYyNC4xNjk0NDg2Njg1*_ga_CW55HF8NVT*MTY5ODc3NDM3MS41My4xLjE2OTg3NzQzOTMuMzguMC4w)](https://nodesource.com/products/nsolid)
 
 --------------------------------------------------------------------------------------------------------
 
