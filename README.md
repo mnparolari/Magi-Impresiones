@@ -36,9 +36,9 @@ Intrucciones para clonar proyecto [aquí](https://docs.github.com/es/repositorie
 
 ## Creado por 
 
-Carla Storniolo - UX-UI.
-
 Rodrigo Enter - UX-UI.
+
+[Carla Storniolo](https://github.com/carmadryn)- UX-UI.
 
 [Josefina Nieto](https://github.com/josefinamariannieto) - UX-UI.
 
@@ -88,9 +88,9 @@ Instructions for cloning a project [here](https://docs.github.com/es/repositorie
 
 ## Created by
 
-Carla Storniolo - UX-UI.
-
 Rodrigo Enter - UX-UI.
+
+[Carla Storniolo](https://github.com/carmadryn)- UX-UI.
 
 [Josefina Nieto](https://github.com/josefinamariannieto) - UX-UI.
 
